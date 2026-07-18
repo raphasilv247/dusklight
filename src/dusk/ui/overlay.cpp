@@ -116,13 +116,13 @@ Rml::Element* create_controller_warning(Rml::Element* parent) {
 
     auto* heading = append(elem, "heading");
     auto* title = append(heading, "span");
-    title->SetInnerRML("No Device Assigned");
+    title->SetInnerRML("Nenhum Dispositivo Atribuído");
     auto* icon = append(heading, "icon");
     icon->SetClass("warning", true);
 
     auto* message = append(elem, "message");
     auto* content = append(message, "span");
-    content->SetInnerRML("Configure <b>Port 1</b> in Settings.");
+    content->SetInnerRML("Configure a <b>Porta 1</b> nas Configurações.");
 
     return elem;
 }
@@ -158,9 +158,9 @@ Rml::String back_button_name() {
 }
 
 #if defined(TARGET_ANDROID) || (defined(__APPLE__) && TARGET_OS_IOS && !TARGET_OS_MACCATALYST)
-constexpr auto kMenuNotificationPrefix = "3-finger tap or";
+constexpr auto kMenuNotificationPrefix = "Toque com 3 dedos ou";
 #else
-constexpr auto kMenuNotificationPrefix = "Press <b>F1</b> or";
+constexpr auto kMenuNotificationPrefix = "Pressione <b>F1</b> ou";
 #endif
 
 Rml::Element* create_menu_notification(Rml::Element* parent) {
@@ -183,7 +183,7 @@ Rml::Element* create_menu_notification(Rml::Element* parent) {
     auto* icon = append(row, "icon");
     icon->SetClass("controller", true);
     append(row, "span")->SetInnerRML("<b>" + escape(padButton) + "</b>");
-    append(row, "span")->SetInnerRML("to open menu");
+    append(row, "span")->SetInnerRML("para abrir o menu");
 
     return elem;
 }
@@ -292,10 +292,10 @@ void Overlay::update() {
     if (getSettings().game.speedrunMode && getSettings().game.liveSplitEnabled) {
         dusk::speedrun::updateLiveSplit();
         if (dusk::speedrun::consumeConnectedEvent()) {
-            push_toast({.title = "LiveSplit connected", .duration = std::chrono::seconds(3)});
+            push_toast({.title = "LiveSplit conectado", .duration = std::chrono::seconds(3)});
         }
         if (dusk::speedrun::consumeDisconnectedEvent()) {
-            push_toast({.title = "LiveSplit disconnected", .duration = std::chrono::seconds(3)});
+            push_toast({.title = "LiveSplit desconectado", .duration = std::chrono::seconds(3)});
         }
     }
 #endif
@@ -459,7 +459,7 @@ void Overlay::update_pipeline_progress() {
         mLastQueuedPipelines = queuedPipelines;
         const auto noun = queuedPipelines == 1 ? "pipeline" : "pipelines";
         mPipelineProgressLabel->SetInnerRML(
-            escape(fmt::format("Building {} {}", queuedPipelines, noun)));
+            escape(fmt::format("Compilando {} {}", queuedPipelines, noun)));
     }
     mPipelineProgressBar->SetAttribute("value", progress);
 

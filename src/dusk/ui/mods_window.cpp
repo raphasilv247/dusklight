@@ -28,15 +28,15 @@ bool mod_enabled(const mods::LoadedMod& mod) {
 
 ModStatus mod_status(const mods::LoadedMod& mod) {
     if (mod.loadFailed) {
-        return {"failed", "Failed"};
+        return {"failed", "Falhou"};
     }
     if (mod.active) {
-        return {"active", "Active"};
+        return {"active", "Ativo"};
     }
     if (mod.suspendedByProvider) {
-        return {"suspended", "Suspended"};
+        return {"suspended", "Suspenso"};
     }
-    return {"", "Disabled"};
+    return {"", "Desativado"};
 }
 
 // Truncates to at most maxBytes without splitting a UTF-8 sequence.
@@ -104,15 +104,15 @@ public:
         const std::string modId = mod.metadata.id;
         if (mod_enabled(mod)) {
             if (!mod.inPlace) {
-                make_button(actions, "Reload").on_pressed([modId] {
+                make_button(actions, "Recarregar").on_pressed([modId] {
                     mods::ModLoader::instance().request_reload(modId);
                 });
             }
-            make_button(actions, "Disable").on_pressed([modId] {
+            make_button(actions, "Desativar").on_pressed([modId] {
                 mods::ModLoader::instance().request_disable(modId);
             });
         } else {
-            make_button(actions, "Enable").on_pressed([modId] {
+            make_button(actions, "Ativar").on_pressed([modId] {
                 mods::ModLoader::instance().request_enable(modId);
             });
         }
@@ -191,7 +191,7 @@ void ModsWindow::build_content(Rml::Element* content) {
     detailPane.root()->SetClass("mod-detail", true);
 
     if (mods::ModLoader::instance().mods().empty()) {
-        listPane.add_text("No mods installed.");
+        listPane.add_text("Nenhum mod instalado.");
         listPane.finalize();
         detailPane.finalize();
         return;
@@ -231,13 +231,13 @@ void ModsWindow::build_detail(Pane& pane, mods::LoadedMod& mod) {
     }
     pane.add_rml(fmt::format(R"(<div class="mod-title">{} )"
                              R"(<span class="mod-title-version">v{}</span>{}</div>)"
-                             R"(<div class="mod-author">by {}</div>)",
+                             R"(<div class="mod-author">por {}</div>)",
         escape(mod.metadata.name), escape(mod.metadata.version), statusBadge,
         escape(mod.metadata.author)));
 
     if (mod.loadFailed && !mod.failureReason.empty()) {
         pane.add_rml(fmt::format(R"(<div class="mod-info-row">)"
-                                 R"(<span class="mod-info-label failed">Reason</span>)"
+                                 R"(<span class="mod-info-label failed">Motivo</span>)"
                                  R"(<span class="mod-info-value">{}</span>)"
                                  R"(</div>)",
             escape(mod.failureReason)));
@@ -252,7 +252,7 @@ void ModsWindow::build_detail(Pane& pane, mods::LoadedMod& mod) {
             }
         }
         pane.add_rml(fmt::format(R"(<div class="mod-info-row">)"
-                                 R"(<span class="mod-info-label">Waiting on</span>)"
+                                 R"(<span class="mod-info-label">Aguardando</span>)"
                                  R"(<span class="mod-info-value">{}</span>)"
                                  R"(</div>)",
             escape(providers)));
@@ -269,7 +269,7 @@ void ModsWindow::build_detail(Pane& pane, mods::LoadedMod& mod) {
     }
     if (mod.active && !activeDependents.empty()) {
         pane.add_rml(fmt::format(R"(<div class="mod-restart-note">{}</div>)",
-            escape(fmt::format("Disabling or reloading also restarts: {}", activeDependents))));
+            escape(fmt::format("Desativar ou recarregar também reinicia: {}", activeDependents))));
     }
 
     if (!mod.metadata.description.empty()) {

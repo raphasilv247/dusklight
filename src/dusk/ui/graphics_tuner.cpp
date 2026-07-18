@@ -201,7 +201,7 @@ Rml::String format_graphics_setting_value(GraphicsOption option, int value) {
         u32 height = 0;
         AuroraGetRenderSize(&width, &height);
         if (value <= 0) {
-            return fmt::format("Auto ({}×{})", width, height);
+            return fmt::format("Automático ({}×{})", width, height);
         } else {
             return fmt::format("{}× ({}×{})", value, width, height);
         }
@@ -213,15 +213,15 @@ Rml::String format_graphics_setting_value(GraphicsOption option, int value) {
         case Resampler::Bilinear:
             return "Bilinear";
         case Resampler::Area:
-            return "Area";
+            return "Área";
         }
         break;
     case GraphicsOption::BloomMode:
         switch (static_cast<BloomMode>(value)) {
         case BloomMode::Off:
-            return "Off";
+            return "Desativado";
         case BloomMode::Classic:
-            return "Classic";
+            return "Clássico";
         case BloomMode::Dusk:
             return "Dusklight";
         }
@@ -229,9 +229,9 @@ Rml::String format_graphics_setting_value(GraphicsOption option, int value) {
     case GraphicsOption::DepthOfFieldMode:
         switch (static_cast<DepthOfFieldMode>(value)) {
         case DepthOfFieldMode::Off:
-            return "Off";
+            return "Desativado";
         case DepthOfFieldMode::Classic:
-            return "Classic";
+            return "Clássico";
         case DepthOfFieldMode::Dusk:
             return "Dusklight";
         }
@@ -239,7 +239,7 @@ Rml::String format_graphics_setting_value(GraphicsOption option, int value) {
     case GraphicsOption::BloomMultiplier:
         return fmt::format("{}%", value);
     case GraphicsOption::TextureReplacements:
-        return static_cast<bool>(value) ? "On" : "Off";
+        return static_cast<bool>(value) ? "Ativado" : "Desativado";
     }
     return "";
 }
@@ -271,11 +271,11 @@ GraphicsTuner::GraphicsTuner(GraphicsTunerProps props)
     }
 
     if (auto* footer = mDocument->GetElementById("footer")) {
-        auto& returnButton = add_component<Button>(footer, "\xE2\x86\x90 Return", "footer-button")
+        auto& returnButton = add_component<Button>(footer, "\xE2\x86\x90 Voltar", "footer-button")
                                  .on_pressed([this] { pop(); });
         returnButton.root()->SetClass("return", true);
         auto& resetButton =
-            add_component<Button>(footer, "Reset to default", "footer-button").on_pressed([this] {
+            add_component<Button>(footer, "Restaurar padrão", "footer-button").on_pressed([this] {
                 mDoAud_seStartMenu(kSoundItemChange);
                 reset_default();
             });

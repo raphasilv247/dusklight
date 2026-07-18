@@ -14,15 +14,15 @@ namespace {
 const char* level_name(LogLevel level) {
     switch (level) {
     case LOG_LEVEL_TRACE:
-        return "Trace";
+        return "Rastreio";
     case LOG_LEVEL_DEBUG:
-        return "Debug";
+        return "Depuração";
     case LOG_LEVEL_INFO:
         return "Info";
     case LOG_LEVEL_WARN:
-        return "Warn";
+        return "Aviso";
     case LOG_LEVEL_ERROR:
-        return "Error";
+        return "Erro";
     }
     return "?";
 }
@@ -98,7 +98,7 @@ void LogsWindow::build_content(Rml::Element* content) {
 
     auto* modLabel = append(toolbar, "div");
     modLabel->SetClass("log-title-mod", true);
-    modLabel->SetInnerRML(mModFilter.empty() ? "All mods" : fmt::format("{}", escape(mModFilter)));
+    modLabel->SetInnerRML(mModFilter.empty() ? "Todos os mods" : fmt::format("{}", escape(mModFilter)));
 
     append(toolbar, "div")->SetClass("log-toolbar-spacer", true);
 
@@ -118,8 +118,8 @@ void LogsWindow::build_content(Rml::Element* content) {
 
     append(toolbar, "div")->SetClass("log-toolbar-spacer", true);
 
-    add_child<Button>(toolbar, "Copy").on_pressed([this] { copy_to_clipboard(); });
-    add_child<Button>(toolbar, "Clear").on_pressed([this] {
+    add_child<Button>(toolbar, "Copiar").on_pressed([this] { copy_to_clipboard(); });
+    add_child<Button>(toolbar, "Limpar").on_pressed([this] {
         mods::log::clear();
         rebuild_lines();
     });
@@ -290,7 +290,7 @@ void LogsWindow::copy_to_clipboard() {
             level_logger_name(line.level), modId, line.message);
     }
     Rml::GetSystemInterface()->SetClipboardText(text);
-    push_toast({.content = "Copied to clipboard", .duration = std::chrono::seconds(2)});
+    push_toast({.content = "Copiado para a área de transferência", .duration = std::chrono::seconds(2)});
 }
 
 }  // namespace dusk::ui
