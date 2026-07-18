@@ -67,7 +67,7 @@ PresetWindow::PresetWindow() : WindowSmall("modal", "modal-dialog") {
 
     auto* title = append(header, "div");
     title->SetClass("modal-title", true);
-    title->SetInnerRML("Welcome to Dusklight");
+    title->SetInnerRML("Bem-vindo ao Dusklight");
 
     auto* headIcon = append(header, "icon");
     headIcon->SetClass("celebration", true);
@@ -75,7 +75,7 @@ PresetWindow::PresetWindow() : WindowSmall("modal", "modal-dialog") {
     auto* intro = append(mDialog, "div");
     intro->SetClass("modal-body", true);
     intro->SetInnerRML(
-        "Choose a preset to get started. You can change any setting later from the Settings menu.");
+        "Escolha um predefinição para começar. Você pode alterar qualquer configuração depois no menu de Configurações.");
 
     auto* grid = append(mDialog, "div");
     grid->SetClass("preset-grid", true);
@@ -87,13 +87,13 @@ PresetWindow::PresetWindow() : WindowSmall("modal", "modal-dialog") {
     };
 
     static constexpr PresetInfo kPresets[] = {
-        {"Classic",
-         "Enhancements disabled to match the GameCube version. "
-         "Good for speedrunning or simple nostalgia!",
+        {"Clássico",
+         "Melhorias desativadas para corresponder à versão GameCube. "
+         "Ótimo para speedrun ou pura nostalgia!",
          applyPresetClassic},
         {"Dusklight",
-         "Graphics & quality of life tweaks, including some from the Wii U version. "
-         "Our recommended way to play!",
+         "Ajustes de gráficos e qualidade de vida, incluindo alguns da versão Wii U. "
+         "Nossa forma recomendada de jogar!",
          applyPresetDusk},
     };
 

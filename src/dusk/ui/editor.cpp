@@ -225,262 +225,262 @@ struct itemInfo {
 };
 
 std::map<int, itemInfo> itemMap = {
-    {dItemNo_HEART_e, {"Heart"}},
-    {dItemNo_GREEN_RUPEE_e, {"Green Rupee"}},
-    {dItemNo_BLUE_RUPEE_e, {"Blue Rupee"}},
-    {dItemNo_YELLOW_RUPEE_e, {"Yellow Rupee"}},
-    {dItemNo_RED_RUPEE_e, {"Red Rupee"}},
-    {dItemNo_PURPLE_RUPEE_e, {"Purple Rupee"}},
-    {dItemNo_ORANGE_RUPEE_e, {"Orange Rupee"}},
-    {dItemNo_SILVER_RUPEE_e, {"Silver Rupee"}},
-    {dItemNo_S_MAGIC_e, {"Small Magic"}},
-    {dItemNo_L_MAGIC_e, {"Large Magic"}},
-    {dItemNo_BOMB_5_e, {"Bombs (5)"}},
-    {dItemNo_BOMB_10_e, {"Bombs (10)"}},
-    {dItemNo_BOMB_20_e, {"Bombs (20)"}},
-    {dItemNo_BOMB_30_e, {"Bombs (30)"}},
-    {dItemNo_ARROW_10_e, {"Arrows (10)"}},
-    {dItemNo_ARROW_20_e, {"Arrows (20)"}},
-    {dItemNo_ARROW_30_e, {"Arrows (30)"}},
-    {dItemNo_ARROW_1_e, {"Arrows (1)"}},
-    {dItemNo_PACHINKO_SHOT_e, {"Pumpkin Seeds"}},
-    {dItemNo_NOENTRY_19_e, {"Reserved"}},
-    {dItemNo_NOENTRY_20_e, {"Reserved"}},
-    {dItemNo_NOENTRY_21_e, {"Reserved"}},
-    {dItemNo_WATER_BOMB_5_e, {"Water Bombs (5)"}},
-    {dItemNo_WATER_BOMB_10_e, {"Water Bombs (10)"}},
-    {dItemNo_WATER_BOMB_20_e, {"Water Bombs (20)"}},
-    {dItemNo_WATER_BOMB_30_e, {"Water Bombs (30)"}},
+    {dItemNo_HEART_e, {"Coração"}},
+    {dItemNo_GREEN_RUPEE_e, {"Rúpia Verde"}},
+    {dItemNo_BLUE_RUPEE_e, {"Rúpia Azul"}},
+    {dItemNo_YELLOW_RUPEE_e, {"Rúpia Amarela"}},
+    {dItemNo_RED_RUPEE_e, {"Rúpia Vermelha"}},
+    {dItemNo_PURPLE_RUPEE_e, {"Rúpia Roxa"}},
+    {dItemNo_ORANGE_RUPEE_e, {"Rúpia Laranja"}},
+    {dItemNo_SILVER_RUPEE_e, {"Rúpia Prata"}},
+    {dItemNo_S_MAGIC_e, {"Magia Pequena"}},
+    {dItemNo_L_MAGIC_e, {"Magia Grande"}},
+    {dItemNo_BOMB_5_e, {"Bombas (5)"}},
+    {dItemNo_BOMB_10_e, {"Bombas (10)"}},
+    {dItemNo_BOMB_20_e, {"Bombas (20)"}},
+    {dItemNo_BOMB_30_e, {"Bombas (30)"}},
+    {dItemNo_ARROW_10_e, {"Flechas (10)"}},
+    {dItemNo_ARROW_20_e, {"Flechas (20)"}},
+    {dItemNo_ARROW_30_e, {"Flechas (30)"}},
+    {dItemNo_ARROW_1_e, {"Flechas (1)"}},
+    {dItemNo_PACHINKO_SHOT_e, {"Sementes de Abóbora"}},
+    {dItemNo_NOENTRY_19_e, {"Reservado"}},
+    {dItemNo_NOENTRY_20_e, {"Reservado"}},
+    {dItemNo_NOENTRY_21_e, {"Reservado"}},
+    {dItemNo_WATER_BOMB_5_e, {"Bombas Aquáticas (5)"}},
+    {dItemNo_WATER_BOMB_10_e, {"Bombas Aquáticas (10)"}},
+    {dItemNo_WATER_BOMB_20_e, {"Bombas Aquáticas (20)"}},
+    {dItemNo_WATER_BOMB_30_e, {"Bombas Aquáticas (30)"}},
     {dItemNo_BOMB_INSECT_5_e, {"Bomblings (5)"}},
     {dItemNo_BOMB_INSECT_10_e, {"Bomblings (10)"}},
     {dItemNo_BOMB_INSECT_20_e, {"Bomblings (20)"}},
     {dItemNo_BOMB_INSECT_30_e, {"Bomblings (30)"}},
-    {dItemNo_RECOVERY_FAILY_e, {"Fairy"}},
-    {dItemNo_TRIPLE_HEART_e, {"Triple Hearts"}},
-    {dItemNo_SMALL_KEY_e, {"Small Key"}},
-    {dItemNo_KAKERA_HEART_e, {"Piece of Heart"}},
-    {dItemNo_UTAWA_HEART_e, {"Heart Container"}},
-    {dItemNo_MAP_e, {"Dungeon Map"}},
-    {dItemNo_COMPUS_e, {"Compass"}},
-    {dItemNo_DUNGEON_EXIT_e, {"Ooccoo Sr. (First Time)", ITEMTYPE_EQUIP_e}},
-    {dItemNo_BOSS_KEY_e, {"Boss Key"}},
+    {dItemNo_RECOVERY_FAILY_e, {"Fada"}},
+    {dItemNo_TRIPLE_HEART_e, {"Corações Triplos"}},
+    {dItemNo_SMALL_KEY_e, {"Chave Pequena"}},
+    {dItemNo_KAKERA_HEART_e, {"Pedaço de Coração"}},
+    {dItemNo_UTAWA_HEART_e, {"Contêiner de Coração"}},
+    {dItemNo_MAP_e, {"Mapa da Masmorra"}},
+    {dItemNo_COMPUS_e, {"Bússola"}},
+    {dItemNo_DUNGEON_EXIT_e, {"Ooccoo Sr. (Primeira Vez)", ITEMTYPE_EQUIP_e}},
+    {dItemNo_BOSS_KEY_e, {"Chave do Chefe"}},
     {dItemNo_DUNGEON_BACK_e, {"Ooccoo Jr.", ITEMTYPE_EQUIP_e}},
-    {dItemNo_SWORD_e, {"Ordon Sword"}},
+    {dItemNo_SWORD_e, {"Espada de Ordon"}},
     {dItemNo_MASTER_SWORD_e, {"Master Sword"}},
-    {dItemNo_WOOD_SHIELD_e, {"Ordon Shield"}},
-    {dItemNo_SHIELD_e, {"Wooden Shield"}},
-    {dItemNo_HYLIA_SHIELD_e, {"Hylian Shield"}},
-    {dItemNo_TKS_LETTER_e, {"Ooccoo's Note", ITEMTYPE_EQUIP_e}},
-    {dItemNo_WEAR_CASUAL_e, {"Ordon Clothes"}},
-    {dItemNo_WEAR_KOKIRI_e, {"Hero's Clothes"}},
-    {dItemNo_ARMOR_e, {"Magic Armor"}},
-    {dItemNo_WEAR_ZORA_e, {"Zora Armor"}},
-    {dItemNo_MAGIC_LV1_e, {"Magic Level 1"}},
+    {dItemNo_WOOD_SHIELD_e, {"Escudo de Ordon"}},
+    {dItemNo_SHIELD_e, {"Escudo de Madeira"}},
+    {dItemNo_HYLIA_SHIELD_e, {"Escudo Hyliano"}},
+    {dItemNo_TKS_LETTER_e, {"Bilhete de Ooccoo", ITEMTYPE_EQUIP_e}},
+    {dItemNo_WEAR_CASUAL_e, {"Roupas de Ordon"}},
+    {dItemNo_WEAR_KOKIRI_e, {"Roupas do Herói"}},
+    {dItemNo_ARMOR_e, {"Armadura Mágica"}},
+    {dItemNo_WEAR_ZORA_e, {"Armadura Zora"}},
+    {dItemNo_MAGIC_LV1_e, {"Magia Nível 1"}},
     {dItemNo_DUNGEON_EXIT_2_e, {"Ooccoo Sr.", ITEMTYPE_EQUIP_e}},
-    {dItemNo_WALLET_LV1_e, {"Wallet"}},
-    {dItemNo_WALLET_LV2_e, {"Big Wallet"}},
-    {dItemNo_WALLET_LV3_e, {"Giant Wallet"}},
-    {dItemNo_NOENTRY_55_e, {"Reserved"}},
-    {dItemNo_NOENTRY_56_e, {"Reserved"}},
-    {dItemNo_NOENTRY_57_e, {"Reserved"}},
-    {dItemNo_NOENTRY_58_e, {"Reserved"}},
-    {dItemNo_NOENTRY_59_e, {"Reserved"}},
-    {dItemNo_NOENTRY_60_e, {"Reserved"}},
-    {dItemNo_ZORAS_JEWEL_e, {"Coral Earring", ITEMTYPE_EQUIP_e}},
-    {dItemNo_HAWK_EYE_e, {"Hawkeye", ITEMTYPE_EQUIP_e}},
-    {dItemNo_WOOD_STICK_e, {"Wooden Sword"}},
-    {dItemNo_BOOMERANG_e, {"Gale Boomerang", ITEMTYPE_EQUIP_e}},
+    {dItemNo_WALLET_LV1_e, {"Carteira"}},
+    {dItemNo_WALLET_LV2_e, {"Carteira Grande"}},
+    {dItemNo_WALLET_LV3_e, {"Carteira Gigante"}},
+    {dItemNo_NOENTRY_55_e, {"Reservado"}},
+    {dItemNo_NOENTRY_56_e, {"Reservado"}},
+    {dItemNo_NOENTRY_57_e, {"Reservado"}},
+    {dItemNo_NOENTRY_58_e, {"Reservado"}},
+    {dItemNo_NOENTRY_59_e, {"Reservado"}},
+    {dItemNo_NOENTRY_60_e, {"Reservado"}},
+    {dItemNo_ZORAS_JEWEL_e, {"Brinco de Coral", ITEMTYPE_EQUIP_e}},
+    {dItemNo_HAWK_EYE_e, {"Olho de Falcão", ITEMTYPE_EQUIP_e}},
+    {dItemNo_WOOD_STICK_e, {"Espada de Madeira"}},
+    {dItemNo_BOOMERANG_e, {"Bumerangue Furacão", ITEMTYPE_EQUIP_e}},
     {dItemNo_SPINNER_e, {"Spinner", ITEMTYPE_EQUIP_e}},
-    {dItemNo_IRONBALL_e, {"Ball and Chain", ITEMTYPE_EQUIP_e}},
-    {dItemNo_BOW_e, {"Hero's Bow", ITEMTYPE_EQUIP_e}},
-    {dItemNo_HOOKSHOT_e, {"Clawshot", ITEMTYPE_EQUIP_e}},
-    {dItemNo_HVY_BOOTS_e, {"Iron Boots", ITEMTYPE_EQUIP_e}},
-    {dItemNo_COPY_ROD_e, {"Dominion Rod", ITEMTYPE_EQUIP_e}},
-    {dItemNo_W_HOOKSHOT_e, {"Double Clawshots", ITEMTYPE_EQUIP_e}},
-    {dItemNo_KANTERA_e, {"Lantern", ITEMTYPE_EQUIP_e}},
-    {dItemNo_LIGHT_SWORD_e, {"Light Sword"}},
-    {dItemNo_FISHING_ROD_1_e, {"Fishing Rod", ITEMTYPE_EQUIP_e}},
-    {dItemNo_PACHINKO_e, {"Slingshot", ITEMTYPE_EQUIP_e}},
-    {dItemNo_COPY_ROD_2_e, {"Dominion Rod (Uncharged)"}},
-    {dItemNo_NOENTRY_77_e, {"Reserved"}},
-    {dItemNo_NOENTRY_78_e, {"Reserved"}},
-    {dItemNo_BOMB_BAG_LV2_e, {"Giant Bomb Bag"}},
-    {dItemNo_BOMB_BAG_LV1_e, {"Empty Bomb Bag", ITEMTYPE_EQUIP_e}},
-    {dItemNo_BOMB_IN_BAG_e, {"Bomb Bag"}},
-    {dItemNo_NOENTRY_82_e, {"Reserved"}},
-    {dItemNo_LIGHT_ARROW_e, {"Light Arrow"}},
-    {dItemNo_ARROW_LV1_e, {"Quiver"}},
-    {dItemNo_ARROW_LV2_e, {"Big Quiver"}},
-    {dItemNo_ARROW_LV3_e, {"Giant Quiver"}},
-    {dItemNo_NOENTRY_87_e, {"Reserved"}},
-    {dItemNo_LURE_ROD_e, {"Fishing Rod (Lure)"}},
-    {dItemNo_BOMB_ARROW_e, {"Bomb Arrow"}},
-    {dItemNo_HAWK_ARROW_e, {"Hawk Arrow"}},
-    {dItemNo_BEE_ROD_e, {"Fishing Rod (Bee Larva)", ITEMTYPE_EQUIP_e}},
-    {dItemNo_JEWEL_ROD_e, {"Fishing Rod (Earring)", ITEMTYPE_EQUIP_e}},
-    {dItemNo_WORM_ROD_e, {"Fishing Rod (Worm)", ITEMTYPE_EQUIP_e}},
-    {dItemNo_JEWEL_BEE_ROD_e, {"Fishing Rod (Earring + Bee Larva)", ITEMTYPE_EQUIP_e}},
-    {dItemNo_JEWEL_WORM_ROD_e, {"Fishing Rod (Earring + Worm)", ITEMTYPE_EQUIP_e}},
-    {dItemNo_EMPTY_BOTTLE_e, {"Empty Bottle", ITEMTYPE_EQUIP_e}},
-    {dItemNo_RED_BOTTLE_e, {"Red Potion", ITEMTYPE_EQUIP_e}},
-    {dItemNo_GREEN_BOTTLE_e, {"Green Potion", ITEMTYPE_EQUIP_e}},
-    {dItemNo_BLUE_BOTTLE_e, {"Blue Potion", ITEMTYPE_EQUIP_e}},
-    {dItemNo_MILK_BOTTLE_e, {"Milk Bottle", ITEMTYPE_EQUIP_e}},
-    {dItemNo_HALF_MILK_BOTTLE_e, {"Half Milk Bottle", ITEMTYPE_EQUIP_e}},
-    {dItemNo_OIL_BOTTLE_e, {"Lantern Oil", ITEMTYPE_EQUIP_e}},
-    {dItemNo_WATER_BOTTLE_e, {"Water Bottle", ITEMTYPE_EQUIP_e}},
-    {dItemNo_OIL_BOTTLE_2_e, {"Lantern Oil (Scooped)"}},
-    {dItemNo_RED_BOTTLE_2_e, {"Red Potion (Scooped)"}},
-    {dItemNo_UGLY_SOUP_e, {"Nasty Soup", ITEMTYPE_EQUIP_e}},
-    {dItemNo_HOT_SPRING_e, {"Hotspring Water", ITEMTYPE_EQUIP_e}},
-    {dItemNo_FAIRY_e, {"Fairy", ITEMTYPE_EQUIP_e}},
-    {dItemNo_HOT_SPRING_2_e, {"Hotspring Water (Shop)"}},
-    {dItemNo_OIL2_e, {"Lantern Refill (Scooped)"}},
-    {dItemNo_OIL_e, {"Lantern Refill (Shop)"}},
-    {dItemNo_NORMAL_BOMB_e, {"Bombs", ITEMTYPE_EQUIP_e}},
-    {dItemNo_WATER_BOMB_e, {"Water Bombs", ITEMTYPE_EQUIP_e}},
+    {dItemNo_IRONBALL_e, {"Bola com Corrente", ITEMTYPE_EQUIP_e}},
+    {dItemNo_BOW_e, {"Arco do Herói", ITEMTYPE_EQUIP_e}},
+    {dItemNo_HOOKSHOT_e, {"Gancho", ITEMTYPE_EQUIP_e}},
+    {dItemNo_HVY_BOOTS_e, {"Botas de Ferro", ITEMTYPE_EQUIP_e}},
+    {dItemNo_COPY_ROD_e, {"Cetro Dominador", ITEMTYPE_EQUIP_e}},
+    {dItemNo_W_HOOKSHOT_e, {"Ganchos Duplos", ITEMTYPE_EQUIP_e}},
+    {dItemNo_KANTERA_e, {"Lanterna", ITEMTYPE_EQUIP_e}},
+    {dItemNo_LIGHT_SWORD_e, {"Espada de Luz"}},
+    {dItemNo_FISHING_ROD_1_e, {"Vara de Pesca", ITEMTYPE_EQUIP_e}},
+    {dItemNo_PACHINKO_e, {"Estilingue", ITEMTYPE_EQUIP_e}},
+    {dItemNo_COPY_ROD_2_e, {"Cetro Dominador (Descarregado)"}},
+    {dItemNo_NOENTRY_77_e, {"Reservado"}},
+    {dItemNo_NOENTRY_78_e, {"Reservado"}},
+    {dItemNo_BOMB_BAG_LV2_e, {"Bolsa de Bombas Gigante"}},
+    {dItemNo_BOMB_BAG_LV1_e, {"Bolsa de Bombas Vazia", ITEMTYPE_EQUIP_e}},
+    {dItemNo_BOMB_IN_BAG_e, {"Bolsa de Bombas"}},
+    {dItemNo_NOENTRY_82_e, {"Reservado"}},
+    {dItemNo_LIGHT_ARROW_e, {"Flecha de Luz"}},
+    {dItemNo_ARROW_LV1_e, {"Aljava"}},
+    {dItemNo_ARROW_LV2_e, {"Aljava Grande"}},
+    {dItemNo_ARROW_LV3_e, {"Aljava Gigante"}},
+    {dItemNo_NOENTRY_87_e, {"Reservado"}},
+    {dItemNo_LURE_ROD_e, {"Vara de Pesca (Isca)"}},
+    {dItemNo_BOMB_ARROW_e, {"Flecha-Bomba"}},
+    {dItemNo_HAWK_ARROW_e, {"Flecha do Falcão"}},
+    {dItemNo_BEE_ROD_e, {"Vara de Pesca (Larva de Abelha)", ITEMTYPE_EQUIP_e}},
+    {dItemNo_JEWEL_ROD_e, {"Vara de Pesca (Brinco)", ITEMTYPE_EQUIP_e}},
+    {dItemNo_WORM_ROD_e, {"Vara de Pesca (Minhoca)", ITEMTYPE_EQUIP_e}},
+    {dItemNo_JEWEL_BEE_ROD_e, {"Vara de Pesca (Brinco + Larva de Abelha)", ITEMTYPE_EQUIP_e}},
+    {dItemNo_JEWEL_WORM_ROD_e, {"Vara de Pesca (Brinco + Minhoca)", ITEMTYPE_EQUIP_e}},
+    {dItemNo_EMPTY_BOTTLE_e, {"Garrafa Vazia", ITEMTYPE_EQUIP_e}},
+    {dItemNo_RED_BOTTLE_e, {"Poção Vermelha", ITEMTYPE_EQUIP_e}},
+    {dItemNo_GREEN_BOTTLE_e, {"Poção Verde", ITEMTYPE_EQUIP_e}},
+    {dItemNo_BLUE_BOTTLE_e, {"Poção Azul", ITEMTYPE_EQUIP_e}},
+    {dItemNo_MILK_BOTTLE_e, {"Garrafa de Leite", ITEMTYPE_EQUIP_e}},
+    {dItemNo_HALF_MILK_BOTTLE_e, {"Garrafa de Leite pela Metade", ITEMTYPE_EQUIP_e}},
+    {dItemNo_OIL_BOTTLE_e, {"Óleo de Lanterna", ITEMTYPE_EQUIP_e}},
+    {dItemNo_WATER_BOTTLE_e, {"Garrafa de Água", ITEMTYPE_EQUIP_e}},
+    {dItemNo_OIL_BOTTLE_2_e, {"Óleo de Lanterna (Coletado)"}},
+    {dItemNo_RED_BOTTLE_2_e, {"Poção Vermelha (Coletada)"}},
+    {dItemNo_UGLY_SOUP_e, {"Sopa Ruim", ITEMTYPE_EQUIP_e}},
+    {dItemNo_HOT_SPRING_e, {"Água da Fonte Termal", ITEMTYPE_EQUIP_e}},
+    {dItemNo_FAIRY_e, {"Fada", ITEMTYPE_EQUIP_e}},
+    {dItemNo_HOT_SPRING_2_e, {"Água da Fonte Termal (Loja)"}},
+    {dItemNo_OIL2_e, {"Recarga de Lanterna (Coletada)"}},
+    {dItemNo_OIL_e, {"Recarga de Lanterna (Loja)"}},
+    {dItemNo_NORMAL_BOMB_e, {"Bombas", ITEMTYPE_EQUIP_e}},
+    {dItemNo_WATER_BOMB_e, {"Bombas Aquáticas", ITEMTYPE_EQUIP_e}},
     {dItemNo_POKE_BOMB_e, {"Bomblings", ITEMTYPE_EQUIP_e}},
-    {dItemNo_FAIRY_DROP_e, {"Great Fairy's Tears", ITEMTYPE_EQUIP_e}},
-    {dItemNo_WORM_e, {"Worm", ITEMTYPE_EQUIP_e}},
-    {dItemNo_DROP_BOTTLE_e, {"Great Fairy Tears (Jovani)"}},
-    {dItemNo_BEE_CHILD_e, {"Bee Larva", ITEMTYPE_EQUIP_e}},
-    {dItemNo_CHUCHU_RARE_e, {"Rare Chu Jelly", ITEMTYPE_EQUIP_e}},
-    {dItemNo_CHUCHU_RED_e, {"Red Chu Jelly", ITEMTYPE_EQUIP_e}},
-    {dItemNo_CHUCHU_BLUE_e, {"Blue Chu Jelly", ITEMTYPE_EQUIP_e}},
-    {dItemNo_CHUCHU_GREEN_e, {"Green Chu Jelly", ITEMTYPE_EQUIP_e}},
-    {dItemNo_CHUCHU_YELLOW_e, {"Yellow Chu Jelly", ITEMTYPE_EQUIP_e}},
-    {dItemNo_CHUCHU_PURPLE_e, {"Purple Chu Jelly", ITEMTYPE_EQUIP_e}},
-    {dItemNo_LV1_SOUP_e, {"Simple Soup", ITEMTYPE_EQUIP_e}},
-    {dItemNo_LV2_SOUP_e, {"Good Soup", ITEMTYPE_EQUIP_e}},
-    {dItemNo_LV3_SOUP_e, {"Superb Soup", ITEMTYPE_EQUIP_e}},
-    {dItemNo_LETTER_e, {"Renado's Letter", ITEMTYPE_EQUIP_e}},
-    {dItemNo_BILL_e, {"Invoice", ITEMTYPE_EQUIP_e}},
-    {dItemNo_WOOD_STATUE_e, {"Wooden Statue", ITEMTYPE_EQUIP_e}},
-    {dItemNo_IRIAS_PENDANT_e, {"Ilia's Charm", ITEMTYPE_EQUIP_e}},
-    {dItemNo_HORSE_FLUTE_e, {"Horse Call", ITEMTYPE_EQUIP_e}},
-    {dItemNo_NOENTRY_133_e, {"Reserved"}},
-    {dItemNo_NOENTRY_134_e, {"Reserved"}},
-    {dItemNo_NOENTRY_135_e, {"Reserved"}},
-    {dItemNo_NOENTRY_136_e, {"Reserved"}},
-    {dItemNo_NOENTRY_137_e, {"Reserved"}},
-    {dItemNo_NOENTRY_138_e, {"Reserved"}},
-    {dItemNo_NOENTRY_139_e, {"Reserved"}},
-    {dItemNo_NOENTRY_140_e, {"Reserved"}},
-    {dItemNo_NOENTRY_141_e, {"Reserved"}},
-    {dItemNo_NOENTRY_142_e, {"Reserved"}},
-    {dItemNo_NOENTRY_143_e, {"Reserved"}},
-    {dItemNo_RAFRELS_MEMO_e, {"Auru's Memo", ITEMTYPE_EQUIP_e}},
-    {dItemNo_ASHS_SCRIBBLING_e, {"Ashei's Sketch", ITEMTYPE_EQUIP_e}},
-    {dItemNo_NOENTRY_146_e, {"Reserved"}},
-    {dItemNo_NOENTRY_147_e, {"Reserved"}},
-    {dItemNo_NOENTRY_148_e, {"Reserved"}},
-    {dItemNo_NOENTRY_149_e, {"Reserved"}},
-    {dItemNo_NOENTRY_150_e, {"Reserved"}},
-    {dItemNo_NOENTRY_151_e, {"Reserved"}},
-    {dItemNo_NOENTRY_152_e, {"Reserved"}},
-    {dItemNo_NOENTRY_153_e, {"Reserved"}},
-    {dItemNo_NOENTRY_154_e, {"Reserved"}},
-    {dItemNo_NOENTRY_155_e, {"Reserved"}},
-    {dItemNo_CHUCHU_YELLOW2_e, {"Lantern Refill (Yellow Chu)"}},
-    {dItemNo_OIL_BOTTLE3_e, {"Lantern Oil (Coro)"}},
-    {dItemNo_SHOP_BEE_CHILD_e, {"Bee Larve (Shop)"}},
-    {dItemNo_CHUCHU_BLACK_e, {"Black Chu Jelly", ITEMTYPE_EQUIP_e}},
-    {dItemNo_LIGHT_DROP_e, {"Tear of Light"}},
-    {dItemNo_DROP_CONTAINER_e, {"Vessel of Light (Faron)"}},
-    {dItemNo_DROP_CONTAINER02_e, {"Vessel of Light (Eldin)"}},
-    {dItemNo_DROP_CONTAINER03_e, {"Vessel of Light (Lanayru)"}},
-    {dItemNo_FILLED_CONTAINER_e, {"Vessel of Light (Filled)"}},
-    {dItemNo_MIRROR_PIECE_2_e, {"Mirror Shard (Snowpeak Ruins)"}},
-    {dItemNo_MIRROR_PIECE_3_e, {"Mirror Shard (Temple of Time)"}},
-    {dItemNo_MIRROR_PIECE_4_e, {"Mirror Shard (City in the Sky)"}},
-    {dItemNo_NOENTRY_168_e, {"Reserved"}},
-    {dItemNo_NOENTRY_169_e, {"Reserved"}},
-    {dItemNo_NOENTRY_170_e, {"Reserved"}},
-    {dItemNo_NOENTRY_171_e, {"Reserved"}},
-    {dItemNo_NOENTRY_172_e, {"Reserved"}},
-    {dItemNo_NOENTRY_173_e, {"Reserved"}},
-    {dItemNo_NOENTRY_174_e, {"Reserved"}},
-    {dItemNo_NOENTRY_175_e, {"Reserved"}},
-    {dItemNo_SMELL_YELIA_POUCH_e, {"Scent of Ilia"}},
-    {dItemNo_SMELL_PUMPKIN_e, {"Pumpkin Scent"}},
-    {dItemNo_SMELL_POH_e, {"Poe Scent"}},
-    {dItemNo_SMELL_FISH_e, {"Reekfish Scent"}},
-    {dItemNo_SMELL_CHILDREN_e, {"Youth's Scent"}},
-    {dItemNo_SMELL_MEDICINE_e, {"Medicine Scent"}},
-    {dItemNo_NOENTRY_182_e, {"Reserved"}},
-    {dItemNo_NOENTRY_183_e, {"Reserved"}},
-    {dItemNo_NOENTRY_184_e, {"Reserved"}},
-    {dItemNo_NOENTRY_185_e, {"Reserved"}},
-    {dItemNo_NOENTRY_186_e, {"Reserved"}},
-    {dItemNo_NOENTRY_187_e, {"Reserved"}},
-    {dItemNo_NOENTRY_188_e, {"Reserved"}},
-    {dItemNo_NOENTRY_189_e, {"Reserved"}},
-    {dItemNo_NOENTRY_190_e, {"Reserved"}},
-    {dItemNo_NOENTRY_191_e, {"Reserved"}},
-    {dItemNo_M_BEETLE_e, {"Beetle (M)"}},
-    {dItemNo_F_BEETLE_e, {"Beetle (F)"}},
-    {dItemNo_M_BUTTERFLY_e, {"Butterfly (M)"}},
-    {dItemNo_F_BUTTERFLY_e, {"Butterfly (F)"}},
-    {dItemNo_M_STAG_BEETLE_e, {"Stag Beetle (M)"}},
-    {dItemNo_F_STAG_BEETLE_e, {"Stag Beetle (F)"}},
-    {dItemNo_M_GRASSHOPPER_e, {"Grasshopper (M)"}},
-    {dItemNo_F_GRASSHOPPER_e, {"Grasshopper (F)"}},
-    {dItemNo_M_NANAFUSHI_e, {"Phasmid (M)"}},
-    {dItemNo_F_NANAFUSHI_e, {"Phasmid (F)"}},
-    {dItemNo_M_DANGOMUSHI_e, {"Pill Bug (M)"}},
-    {dItemNo_F_DANGOMUSHI_e, {"Pill Bug (F)"}},
-    {dItemNo_M_MANTIS_e, {"Mantis (M)"}},
-    {dItemNo_F_MANTIS_e, {"Mantis (F)"}},
-    {dItemNo_M_LADYBUG_e, {"Ladybug (M)"}},
-    {dItemNo_F_LADYBUG_e, {"Ladybug (F)"}},
-    {dItemNo_M_SNAIL_e, {"Snail (M)"}},
-    {dItemNo_F_SNAIL_e, {"Snail (F)"}},
-    {dItemNo_M_DRAGONFLY_e, {"Dragonfly (M)"}},
-    {dItemNo_F_DRAGONFLY_e, {"Dragonfly (F)"}},
-    {dItemNo_M_ANT_e, {"Ant (M)"}},
-    {dItemNo_F_ANT_e, {"Ant (F)"}},
-    {dItemNo_M_MAYFLY_e, {"Mayfly (M)"}},
-    {dItemNo_F_MAYFLY_e, {"Mayfly (F)"}},
-    {dItemNo_NOENTRY_216_e, {"Reserved"}},
-    {dItemNo_NOENTRY_217_e, {"Reserved"}},
-    {dItemNo_NOENTRY_218_e, {"Reserved"}},
-    {dItemNo_NOENTRY_219_e, {"Reserved"}},
-    {dItemNo_NOENTRY_220_e, {"Reserved"}},
-    {dItemNo_NOENTRY_221_e, {"Reserved"}},
-    {dItemNo_NOENTRY_222_e, {"Reserved"}},
-    {dItemNo_NOENTRY_223_e, {"Reserved"}},
-    {dItemNo_POU_SPIRIT_e, {"Poe Soul"}},
-    {dItemNo_NOENTRY_225_e, {"Reserved"}},
-    {dItemNo_NOENTRY_226_e, {"Reserved"}},
-    {dItemNo_NOENTRY_227_e, {"Reserved"}},
-    {dItemNo_NOENTRY_228_e, {"Reserved"}},
-    {dItemNo_NOENTRY_229_e, {"Reserved"}},
-    {dItemNo_NOENTRY_230_e, {"Reserved"}},
-    {dItemNo_NOENTRY_231_e, {"Reserved"}},
-    {dItemNo_NOENTRY_232_e, {"Reserved"}},
-    {dItemNo_ANCIENT_DOCUMENT_e, {"Ancient Sky Book", ITEMTYPE_EQUIP_e}},
-    {dItemNo_AIR_LETTER_e, {"Ancient Sky Book (Partial)", ITEMTYPE_EQUIP_e}},
-    {dItemNo_ANCIENT_DOCUMENT2_e, {"Ancient Sky Book (Filled)", ITEMTYPE_EQUIP_e}},
-    {dItemNo_LV7_DUNGEON_EXIT_e, {"Ooccoo Sr. (City in the Sky)"}},
-    {dItemNo_LINKS_SAVINGS_e, {"Purple Rupee (Link's Savings)"}},
-    {dItemNo_SMALL_KEY2_e, {"Small Key (North Faron Gate)"}},
-    {dItemNo_POU_FIRE1_e, {"Poe Fire 1"}},
-    {dItemNo_POU_FIRE2_e, {"Poe Fire 2"}},
-    {dItemNo_POU_FIRE3_e, {"Poe Fire 3"}},
-    {dItemNo_POU_FIRE4_e, {"Poe Fire 4"}},
-    {dItemNo_BOSSRIDER_KEY_e, {"Hyrule Field Keys"}},
-    {dItemNo_TOMATO_PUREE_e, {"Ordon Pumpkin", ITEMTYPE_EQUIP_e}},
-    {dItemNo_TASTE_e, {"Ordon Goat Cheese", ITEMTYPE_EQUIP_e}},
-    {dItemNo_LV5_BOSS_KEY_e, {"Bedroom Key"}},
-    {dItemNo_SURFBOARD_e, {"Surf Leaf"}},
-    {dItemNo_KANTERA2_e, {"Lantern (Reclaimed)"}},
-    {dItemNo_L2_KEY_PIECES1_e, {"Key Shard (1)"}},
-    {dItemNo_L2_KEY_PIECES2_e, {"Key Shard (2)"}},
-    {dItemNo_L2_KEY_PIECES3_e, {"Key Shard (3)"}},
-    {dItemNo_KEY_OF_CARAVAN_e, {"Bulblin Camp Key"}},
-    {dItemNo_LV2_BOSS_KEY_e, {"Goron Mines Boss Key"}},
-    {dItemNo_KEY_OF_FILONE_e, {"South Faron Gate Key"}},
-    {dItemNo_NONE_e, {"None"}},
+    {dItemNo_FAIRY_DROP_e, {"Lágrimas da Grande Fada", ITEMTYPE_EQUIP_e}},
+    {dItemNo_WORM_e, {"Minhoca", ITEMTYPE_EQUIP_e}},
+    {dItemNo_DROP_BOTTLE_e, {"Lágrimas da Grande Fada (Jovani)"}},
+    {dItemNo_BEE_CHILD_e, {"Larva de Abelha", ITEMTYPE_EQUIP_e}},
+    {dItemNo_CHUCHU_RARE_e, {"Geleia de Chu Rara", ITEMTYPE_EQUIP_e}},
+    {dItemNo_CHUCHU_RED_e, {"Geleia de Chu Vermelha", ITEMTYPE_EQUIP_e}},
+    {dItemNo_CHUCHU_BLUE_e, {"Geleia de Chu Azul", ITEMTYPE_EQUIP_e}},
+    {dItemNo_CHUCHU_GREEN_e, {"Geleia de Chu Verde", ITEMTYPE_EQUIP_e}},
+    {dItemNo_CHUCHU_YELLOW_e, {"Geleia de Chu Amarela", ITEMTYPE_EQUIP_e}},
+    {dItemNo_CHUCHU_PURPLE_e, {"Geleia de Chu Roxa", ITEMTYPE_EQUIP_e}},
+    {dItemNo_LV1_SOUP_e, {"Sopa Simples", ITEMTYPE_EQUIP_e}},
+    {dItemNo_LV2_SOUP_e, {"Sopa Boa", ITEMTYPE_EQUIP_e}},
+    {dItemNo_LV3_SOUP_e, {"Sopa Soberba", ITEMTYPE_EQUIP_e}},
+    {dItemNo_LETTER_e, {"Carta de Renado", ITEMTYPE_EQUIP_e}},
+    {dItemNo_BILL_e, {"Fatura", ITEMTYPE_EQUIP_e}},
+    {dItemNo_WOOD_STATUE_e, {"Estátua de Madeira", ITEMTYPE_EQUIP_e}},
+    {dItemNo_IRIAS_PENDANT_e, {"Amuleto de Ilia", ITEMTYPE_EQUIP_e}},
+    {dItemNo_HORSE_FLUTE_e, {"Chamado do Cavalo", ITEMTYPE_EQUIP_e}},
+    {dItemNo_NOENTRY_133_e, {"Reservado"}},
+    {dItemNo_NOENTRY_134_e, {"Reservado"}},
+    {dItemNo_NOENTRY_135_e, {"Reservado"}},
+    {dItemNo_NOENTRY_136_e, {"Reservado"}},
+    {dItemNo_NOENTRY_137_e, {"Reservado"}},
+    {dItemNo_NOENTRY_138_e, {"Reservado"}},
+    {dItemNo_NOENTRY_139_e, {"Reservado"}},
+    {dItemNo_NOENTRY_140_e, {"Reservado"}},
+    {dItemNo_NOENTRY_141_e, {"Reservado"}},
+    {dItemNo_NOENTRY_142_e, {"Reservado"}},
+    {dItemNo_NOENTRY_143_e, {"Reservado"}},
+    {dItemNo_RAFRELS_MEMO_e, {"Bilhete de Auru", ITEMTYPE_EQUIP_e}},
+    {dItemNo_ASHS_SCRIBBLING_e, {"Esboço de Ashei", ITEMTYPE_EQUIP_e}},
+    {dItemNo_NOENTRY_146_e, {"Reservado"}},
+    {dItemNo_NOENTRY_147_e, {"Reservado"}},
+    {dItemNo_NOENTRY_148_e, {"Reservado"}},
+    {dItemNo_NOENTRY_149_e, {"Reservado"}},
+    {dItemNo_NOENTRY_150_e, {"Reservado"}},
+    {dItemNo_NOENTRY_151_e, {"Reservado"}},
+    {dItemNo_NOENTRY_152_e, {"Reservado"}},
+    {dItemNo_NOENTRY_153_e, {"Reservado"}},
+    {dItemNo_NOENTRY_154_e, {"Reservado"}},
+    {dItemNo_NOENTRY_155_e, {"Reservado"}},
+    {dItemNo_CHUCHU_YELLOW2_e, {"Recarga de Lanterna (Chu Amarelo)"}},
+    {dItemNo_OIL_BOTTLE3_e, {"Óleo de Lanterna (Coro)"}},
+    {dItemNo_SHOP_BEE_CHILD_e, {"Larva de Abelha (Loja)"}},
+    {dItemNo_CHUCHU_BLACK_e, {"Geleia de Chu Preta", ITEMTYPE_EQUIP_e}},
+    {dItemNo_LIGHT_DROP_e, {"Lágrima de Luz"}},
+    {dItemNo_DROP_CONTAINER_e, {"Vaso de Luz (Faron)"}},
+    {dItemNo_DROP_CONTAINER02_e, {"Vaso de Luz (Eldin)"}},
+    {dItemNo_DROP_CONTAINER03_e, {"Vaso de Luz (Lanayru)"}},
+    {dItemNo_FILLED_CONTAINER_e, {"Vaso de Luz (Cheio)"}},
+    {dItemNo_MIRROR_PIECE_2_e, {"Fragmento do Espelho (Ruínas de Snowpeak)"}},
+    {dItemNo_MIRROR_PIECE_3_e, {"Fragmento do Espelho (Templo do Tempo)"}},
+    {dItemNo_MIRROR_PIECE_4_e, {"Fragmento do Espelho (Cidade no Céu)"}},
+    {dItemNo_NOENTRY_168_e, {"Reservado"}},
+    {dItemNo_NOENTRY_169_e, {"Reservado"}},
+    {dItemNo_NOENTRY_170_e, {"Reservado"}},
+    {dItemNo_NOENTRY_171_e, {"Reservado"}},
+    {dItemNo_NOENTRY_172_e, {"Reservado"}},
+    {dItemNo_NOENTRY_173_e, {"Reservado"}},
+    {dItemNo_NOENTRY_174_e, {"Reservado"}},
+    {dItemNo_NOENTRY_175_e, {"Reservado"}},
+    {dItemNo_SMELL_YELIA_POUCH_e, {"Aroma de Ilia"}},
+    {dItemNo_SMELL_PUMPKIN_e, {"Aroma de Abóbora"}},
+    {dItemNo_SMELL_POH_e, {"Aroma de Poe"}},
+    {dItemNo_SMELL_FISH_e, {"Aroma de Peixe Fedorento"}},
+    {dItemNo_SMELL_CHILDREN_e, {"Aroma da Juventude"}},
+    {dItemNo_SMELL_MEDICINE_e, {"Aroma de Remédio"}},
+    {dItemNo_NOENTRY_182_e, {"Reservado"}},
+    {dItemNo_NOENTRY_183_e, {"Reservado"}},
+    {dItemNo_NOENTRY_184_e, {"Reservado"}},
+    {dItemNo_NOENTRY_185_e, {"Reservado"}},
+    {dItemNo_NOENTRY_186_e, {"Reservado"}},
+    {dItemNo_NOENTRY_187_e, {"Reservado"}},
+    {dItemNo_NOENTRY_188_e, {"Reservado"}},
+    {dItemNo_NOENTRY_189_e, {"Reservado"}},
+    {dItemNo_NOENTRY_190_e, {"Reservado"}},
+    {dItemNo_NOENTRY_191_e, {"Reservado"}},
+    {dItemNo_M_BEETLE_e, {"Besouro (M)"}},
+    {dItemNo_F_BEETLE_e, {"Besouro (F)"}},
+    {dItemNo_M_BUTTERFLY_e, {"Borboleta (M)"}},
+    {dItemNo_F_BUTTERFLY_e, {"Borboleta (F)"}},
+    {dItemNo_M_STAG_BEETLE_e, {"Besouro-Cervo (M)"}},
+    {dItemNo_F_STAG_BEETLE_e, {"Besouro-Cervo (F)"}},
+    {dItemNo_M_GRASSHOPPER_e, {"Gafanhoto (M)"}},
+    {dItemNo_F_GRASSHOPPER_e, {"Gafanhoto (F)"}},
+    {dItemNo_M_NANAFUSHI_e, {"Inseto-Pau (M)"}},
+    {dItemNo_F_NANAFUSHI_e, {"Inseto-Pau (F)"}},
+    {dItemNo_M_DANGOMUSHI_e, {"Tatuzinho (M)"}},
+    {dItemNo_F_DANGOMUSHI_e, {"Tatuzinho (F)"}},
+    {dItemNo_M_MANTIS_e, {"Louva-a-deus (M)"}},
+    {dItemNo_F_MANTIS_e, {"Louva-a-deus (F)"}},
+    {dItemNo_M_LADYBUG_e, {"Joaninha (M)"}},
+    {dItemNo_F_LADYBUG_e, {"Joaninha (F)"}},
+    {dItemNo_M_SNAIL_e, {"Caracol (M)"}},
+    {dItemNo_F_SNAIL_e, {"Caracol (F)"}},
+    {dItemNo_M_DRAGONFLY_e, {"Libélula (M)"}},
+    {dItemNo_F_DRAGONFLY_e, {"Libélula (F)"}},
+    {dItemNo_M_ANT_e, {"Formiga (M)"}},
+    {dItemNo_F_ANT_e, {"Formiga (F)"}},
+    {dItemNo_M_MAYFLY_e, {"Efêmera (M)"}},
+    {dItemNo_F_MAYFLY_e, {"Efêmera (F)"}},
+    {dItemNo_NOENTRY_216_e, {"Reservado"}},
+    {dItemNo_NOENTRY_217_e, {"Reservado"}},
+    {dItemNo_NOENTRY_218_e, {"Reservado"}},
+    {dItemNo_NOENTRY_219_e, {"Reservado"}},
+    {dItemNo_NOENTRY_220_e, {"Reservado"}},
+    {dItemNo_NOENTRY_221_e, {"Reservado"}},
+    {dItemNo_NOENTRY_222_e, {"Reservado"}},
+    {dItemNo_NOENTRY_223_e, {"Reservado"}},
+    {dItemNo_POU_SPIRIT_e, {"Alma Poe"}},
+    {dItemNo_NOENTRY_225_e, {"Reservado"}},
+    {dItemNo_NOENTRY_226_e, {"Reservado"}},
+    {dItemNo_NOENTRY_227_e, {"Reservado"}},
+    {dItemNo_NOENTRY_228_e, {"Reservado"}},
+    {dItemNo_NOENTRY_229_e, {"Reservado"}},
+    {dItemNo_NOENTRY_230_e, {"Reservado"}},
+    {dItemNo_NOENTRY_231_e, {"Reservado"}},
+    {dItemNo_NOENTRY_232_e, {"Reservado"}},
+    {dItemNo_ANCIENT_DOCUMENT_e, {"Livro Ancestral do Céu", ITEMTYPE_EQUIP_e}},
+    {dItemNo_AIR_LETTER_e, {"Livro Ancestral do Céu (Parcial)", ITEMTYPE_EQUIP_e}},
+    {dItemNo_ANCIENT_DOCUMENT2_e, {"Livro Ancestral do Céu (Completo)", ITEMTYPE_EQUIP_e}},
+    {dItemNo_LV7_DUNGEON_EXIT_e, {"Ooccoo Sr. (Cidade no Céu)"}},
+    {dItemNo_LINKS_SAVINGS_e, {"Rúpia Roxa (Poupança de Link)"}},
+    {dItemNo_SMALL_KEY2_e, {"Chave Pequena (Portão Norte de Faron)"}},
+    {dItemNo_POU_FIRE1_e, {"Fogo Poe 1"}},
+    {dItemNo_POU_FIRE2_e, {"Fogo Poe 2"}},
+    {dItemNo_POU_FIRE3_e, {"Fogo Poe 3"}},
+    {dItemNo_POU_FIRE4_e, {"Fogo Poe 4"}},
+    {dItemNo_BOSSRIDER_KEY_e, {"Chaves do Campo de Hyrule"}},
+    {dItemNo_TOMATO_PUREE_e, {"Abóbora de Ordon", ITEMTYPE_EQUIP_e}},
+    {dItemNo_TASTE_e, {"Queijo de Cabra de Ordon", ITEMTYPE_EQUIP_e}},
+    {dItemNo_LV5_BOSS_KEY_e, {"Chave do Quarto"}},
+    {dItemNo_SURFBOARD_e, {"Folha Surfista"}},
+    {dItemNo_KANTERA2_e, {"Lanterna (Recuperada)"}},
+    {dItemNo_L2_KEY_PIECES1_e, {"Fragmento de Chave (1)"}},
+    {dItemNo_L2_KEY_PIECES2_e, {"Fragmento de Chave (2)"}},
+    {dItemNo_L2_KEY_PIECES3_e, {"Fragmento de Chave (3)"}},
+    {dItemNo_KEY_OF_CARAVAN_e, {"Chave do Acampamento Bulblin"}},
+    {dItemNo_LV2_BOSS_KEY_e, {"Chave do Chefe das Minas Goron"}},
+    {dItemNo_KEY_OF_FILONE_e, {"Chave do Portão Sul de Faron"}},
+    {dItemNo_NONE_e, {"Nenhum"}},
 };
 
 Rml::String get_item_name(u8 id) {
@@ -493,7 +493,7 @@ Rml::String get_item_name(u8 id) {
 
 Rml::String item_label_for_slot(u8 slot) {
     if (slot == 0xFF) {
-        return "None";
+        return "Nenhum";
     }
     const auto id = dComIfGs_getSaveData()->getPlayer().getItem().mItems[slot];
     return fmt::format("Slot {0} ({1})", slot, get_item_name(id));
@@ -544,90 +544,90 @@ constexpr std::array<u8, 5> smellEntries = {
 };
 
 constexpr std::array fusedShadowEntries = {
-    NamedIndexEntry{"Forest Temple", 0},
-    NamedIndexEntry{"Goron Mines", 1},
-    NamedIndexEntry{"Lakebed Temple", 2},
+    NamedIndexEntry{"Templo da Floresta", 0},
+    NamedIndexEntry{"Minas Goron", 1},
+    NamedIndexEntry{"Templo do Leito do Lago", 2},
 };
 
 constexpr std::array mirrorShardEntries = {
-    NamedIndexEntry{"Snowpeak Ruins", 1},
-    NamedIndexEntry{"Temple of Time", 2},
-    NamedIndexEntry{"City in the Sky", 3},
+    NamedIndexEntry{"Ruínas de Snowpeak", 1},
+    NamedIndexEntry{"Templo do Tempo", 2},
+    NamedIndexEntry{"Cidade no Céu", 3},
 };
 
 constexpr std::array bugSpeciesEntries = {
-    BugSpeciesEntry{"Ant", dItemNo_M_ANT_e, dItemNo_F_ANT_e, dSv_event_flag_c::F_0421,
+    BugSpeciesEntry{"Formiga", dItemNo_M_ANT_e, dItemNo_F_ANT_e, dSv_event_flag_c::F_0421,
         dSv_event_flag_c::F_0422},
-    BugSpeciesEntry{"Dayfly", dItemNo_M_MAYFLY_e, dItemNo_F_MAYFLY_e, dSv_event_flag_c::F_0423,
+    BugSpeciesEntry{"Efêmera", dItemNo_M_MAYFLY_e, dItemNo_F_MAYFLY_e, dSv_event_flag_c::F_0423,
         dSv_event_flag_c::F_0424},
-    BugSpeciesEntry{"Beetle", dItemNo_M_BEETLE_e, dItemNo_F_BEETLE_e, dSv_event_flag_c::F_0401,
+    BugSpeciesEntry{"Besouro", dItemNo_M_BEETLE_e, dItemNo_F_BEETLE_e, dSv_event_flag_c::F_0401,
         dSv_event_flag_c::F_0402},
-    BugSpeciesEntry{"Mantis", dItemNo_M_MANTIS_e, dItemNo_F_MANTIS_e, dSv_event_flag_c::F_0413,
+    BugSpeciesEntry{"Louva-a-deus", dItemNo_M_MANTIS_e, dItemNo_F_MANTIS_e, dSv_event_flag_c::F_0413,
         dSv_event_flag_c::F_0414},
-    BugSpeciesEntry{"Stag Beetle", dItemNo_M_STAG_BEETLE_e, dItemNo_F_STAG_BEETLE_e,
+    BugSpeciesEntry{"Besouro-Cervo", dItemNo_M_STAG_BEETLE_e, dItemNo_F_STAG_BEETLE_e,
         dSv_event_flag_c::F_0405, dSv_event_flag_c::F_0406},
-    BugSpeciesEntry{"Pill Bug", dItemNo_M_DANGOMUSHI_e, dItemNo_F_DANGOMUSHI_e,
+    BugSpeciesEntry{"Tatuzinho", dItemNo_M_DANGOMUSHI_e, dItemNo_F_DANGOMUSHI_e,
         dSv_event_flag_c::F_0411, dSv_event_flag_c::F_0412},
-    BugSpeciesEntry{"Butterfly", dItemNo_M_BUTTERFLY_e, dItemNo_F_BUTTERFLY_e,
+    BugSpeciesEntry{"Borboleta", dItemNo_M_BUTTERFLY_e, dItemNo_F_BUTTERFLY_e,
         dSv_event_flag_c::F_0403, dSv_event_flag_c::F_0404},
-    BugSpeciesEntry{"Ladybug", dItemNo_M_LADYBUG_e, dItemNo_F_LADYBUG_e, dSv_event_flag_c::F_0415,
+    BugSpeciesEntry{"Joaninha", dItemNo_M_LADYBUG_e, dItemNo_F_LADYBUG_e, dSv_event_flag_c::F_0415,
         dSv_event_flag_c::F_0416},
-    BugSpeciesEntry{"Snail", dItemNo_M_SNAIL_e, dItemNo_F_SNAIL_e, dSv_event_flag_c::F_0417,
+    BugSpeciesEntry{"Caracol", dItemNo_M_SNAIL_e, dItemNo_F_SNAIL_e, dSv_event_flag_c::F_0417,
         dSv_event_flag_c::F_0418},
-    BugSpeciesEntry{"Phasmid", dItemNo_M_NANAFUSHI_e, dItemNo_F_NANAFUSHI_e,
+    BugSpeciesEntry{"Inseto-Pau", dItemNo_M_NANAFUSHI_e, dItemNo_F_NANAFUSHI_e,
         dSv_event_flag_c::F_0409, dSv_event_flag_c::F_0410},
-    BugSpeciesEntry{"Grasshopper", dItemNo_M_GRASSHOPPER_e, dItemNo_F_GRASSHOPPER_e,
+    BugSpeciesEntry{"Gafanhoto", dItemNo_M_GRASSHOPPER_e, dItemNo_F_GRASSHOPPER_e,
         dSv_event_flag_c::F_0407, dSv_event_flag_c::F_0408},
-    BugSpeciesEntry{"Dragonfly", dItemNo_M_DRAGONFLY_e, dItemNo_F_DRAGONFLY_e,
+    BugSpeciesEntry{"Libélula", dItemNo_M_DRAGONFLY_e, dItemNo_F_DRAGONFLY_e,
         dSv_event_flag_c::F_0419, dSv_event_flag_c::F_0420},
 };
 
 constexpr std::array<NamedFlagEntry, 7> hiddenSkillEntries = {
-    NamedFlagEntry{"Ending Blow", dSv_event_flag_c::F_0339},
-    NamedFlagEntry{"Shield Attack", dSv_event_flag_c::F_0338},
-    NamedFlagEntry{"Back Slice", dSv_event_flag_c::F_0340},
-    NamedFlagEntry{"Helm Splitter", dSv_event_flag_c::F_0341},
-    NamedFlagEntry{"Mortal Draw", dSv_event_flag_c::F_0342},
-    NamedFlagEntry{"Jump Strike", dSv_event_flag_c::F_0343},
-    NamedFlagEntry{"Great Spin", dSv_event_flag_c::F_0344},
+    NamedFlagEntry{"Golpe Final", dSv_event_flag_c::F_0339},
+    NamedFlagEntry{"Ataque de Escudo", dSv_event_flag_c::F_0338},
+    NamedFlagEntry{"Corte pelas Costas", dSv_event_flag_c::F_0340},
+    NamedFlagEntry{"Rachador de Elmos", dSv_event_flag_c::F_0341},
+    NamedFlagEntry{"Saque Mortal", dSv_event_flag_c::F_0342},
+    NamedFlagEntry{"Golpe Saltado", dSv_event_flag_c::F_0343},
+    NamedFlagEntry{"Giro Ampliado", dSv_event_flag_c::F_0344},
 };
 
 constexpr std::array<const char*, 16> letterSenders = {
     "Renado",
     "Ooccoo 1",
     "Ooccoo 2",
-    "The Postman",
-    "Kakariko Goods",
+    "O Carteiro",
+    "Mercadorias de Kakariko",
     "Barnes 1",
     "Barnes 2",
-    "Barnes Bombs",
+    "Bombas do Barnes",
     "Malo Mart",
     "Telma",
     "Purlo",
-    "From Jr.",
-    "Princess Agitha",
-    "Lanayru Tourism",
+    "De Jr.",
+    "Princesa Agitha",
+    "Turismo de Lanayru",
     "Shad",
     "Yeta",
 };
 
 constexpr std::array<FishSpeciesEntry, 6> fishSpeciesEntries = {
-    FishSpeciesEntry{"Ordon Catfish", 3},
-    FishSpeciesEntry{"Greengill", 5},
-    FishSpeciesEntry{"Reekfish", 4},
-    FishSpeciesEntry{"Hyrule Bass", 0},
-    FishSpeciesEntry{"Hylian Pike", 2},
-    FishSpeciesEntry{"Hylian Loach", 1},
+    FishSpeciesEntry{"Bagre de Ordon", 3},
+    FishSpeciesEntry{"Guelra-Verde", 5},
+    FishSpeciesEntry{"Peixe Fedorento", 4},
+    FishSpeciesEntry{"Robalo de Hyrule", 0},
+    FishSpeciesEntry{"Lúcio Hyliano", 2},
+    FishSpeciesEntry{"Caramujo-Peixe Hyliano", 1},
 };
 
 constexpr std::array<const char*, 2> targetTypeNames = {
-    "Hold",
-    "Switch",
+    "Segurar",
+    "Alternar",
 };
 
 constexpr std::array<const char*, 3> soundModeNames = {
     "Mono",
-    "Stereo",
+    "Estéreo",
     "Surround",
 };
 
@@ -741,21 +741,21 @@ struct ToggleEntry {
 
 void populate_toggle_group(Pane& pane, const std::vector<ToggleEntry>& entries) {
     pane.clear();
-    pane.add_section("Actions");
-    pane.add_button("Select All").on_pressed([entries] {
+    pane.add_section("Ações");
+    pane.add_button("Selecionar Tudo").on_pressed([entries] {
         mDoAud_seStartMenu(kSoundItemChange);
         for (const auto& entry : entries) {
             entry.setSelected(true);
         }
     });
-    pane.add_button("Select None").on_pressed([entries] {
+    pane.add_button("Selecionar Nenhum").on_pressed([entries] {
         mDoAud_seStartMenu(kSoundItemChange);
         for (const auto& entry : entries) {
             entry.setSelected(false);
         }
     });
 
-    pane.add_section("Items");
+    pane.add_section("Itens");
     for (const auto& entry : entries) {
         pane.add_button({
                             .text = entry.text,
@@ -867,7 +867,7 @@ Rml::String fish_species_label(const FishSpeciesEntry& fish) {
 }
 
 bool can_edit_item_first_bit(int itemId, const itemInfo& item) {
-    return itemId < 254 && item.m_name != "Reserved";
+    return itemId < 254 && item.m_name != "Reservado";
 }
 
 void set_all_item_first_bits(bool owned) {
@@ -881,17 +881,17 @@ void set_all_item_first_bits(bool owned) {
 
 void populate_item_slot_picker(Pane& pane, int slot) {
     pane.clear();
-    pane.add_section("Actions");
+    pane.add_section("Ações");
     pane.add_button(fmt::format("Default ({})", get_item_name(get_slot_default(slot))))
         .on_pressed([slot] {
             mDoAud_seStartMenu(kSoundItemChange);
             dComIfGs_setItem(slot, get_slot_default(slot));
         });
 
-    pane.add_section("Items");
+    pane.add_section("Itens");
     pane.add_button(
             {
-                .text = "None",
+                .text = "Nenhum",
                 .isSelected = [slot] { return get_player_item()->mItems[slot] == dItemNo_NONE_e; },
             })
         .on_pressed([slot] {
@@ -916,17 +916,17 @@ void populate_item_slot_picker(Pane& pane, int slot) {
 
 void populate_item_flag_picker(Pane& pane) {
     pane.clear();
-    pane.add_section("Actions");
-    pane.add_button("Select All").on_pressed([] {
+    pane.add_section("Ações");
+    pane.add_button("Selecionar Tudo").on_pressed([] {
         mDoAud_seStartMenu(kSoundItemChange);
         set_all_item_first_bits(true);
     });
-    pane.add_button("Clear None").on_pressed([] {
+    pane.add_button("Limpar Nenhum").on_pressed([] {
         mDoAud_seStartMenu(kSoundItemChange);
         set_all_item_first_bits(false);
     });
 
-    pane.add_section("Items");
+    pane.add_section("Itens");
     for (const auto& [itemId, item] : itemMap) {
         if (!can_edit_item_first_bit(itemId, item)) {
             continue;
@@ -947,7 +947,7 @@ void populate_select_item_picker(Pane& pane, u8& selectItemData) {
     pane.clear();
     pane.add_button(
             {
-                .text = "None",
+                .text = "Nenhum",
                 .isSelected = [&selectItemData] { return selectItemData == dItemNo_NONE_e; },
             })
         .on_pressed([&selectItemData] {
@@ -1007,8 +1007,8 @@ void populate_select_equip_picker(Pane& pane, u8& equip, const std::array<u8, Si
 
 static const std::array<Rml::String, 3> walletSizeNames = {
     "Normal",
-    "Big",
-    "Giant",
+    "Grande",
+    "Gigante",
 };
 
 void populate_wallet_picker(Pane& pane) {
@@ -1026,8 +1026,8 @@ void populate_wallet_picker(Pane& pane) {
 }
 
 static const std::array<Rml::String, 2> formNames = {
-    "Human",
-    "Wolf",
+    "Humano",
+    "Lobo",
 };
 
 void populate_form_picker(Pane& pane) {
@@ -1134,7 +1134,7 @@ void populate_collect_clothes_picker(Pane& pane) {
     populate_toggle_group(pane,
         {
             ToggleEntry{
-                .text = "Ordon Clothes",
+                .text = "Roupas de Ordon",
                 .isSelected = [] { return dComIfGs_isItemFirstBit(dItemNo_WEAR_CASUAL_e); },
                 .setSelected =
                     [](bool selected) { set_item_first_bit(dItemNo_WEAR_CASUAL_e, selected); },
@@ -1152,13 +1152,13 @@ void populate_collect_clothes_picker(Pane& pane) {
                     },
             },
             ToggleEntry{
-                .text = "Zora Armor",
+                .text = "Armadura Zora",
                 .isSelected = [] { return dComIfGs_isItemFirstBit(dItemNo_WEAR_ZORA_e); },
                 .setSelected =
                     [](bool selected) { set_item_first_bit(dItemNo_WEAR_ZORA_e, selected); },
             },
             ToggleEntry{
-                .text = "Magic Armor",
+                .text = "Armadura Mágica",
                 .isSelected = [] { return dComIfGs_isItemFirstBit(dItemNo_ARMOR_e); },
                 .setSelected = [](bool selected) { set_item_first_bit(dItemNo_ARMOR_e, selected); },
             },
@@ -1167,19 +1167,19 @@ void populate_collect_clothes_picker(Pane& pane) {
 
 void populate_poe_souls_picker(Pane& pane) {
     pane.clear();
-    pane.add_section("Actions");
+    pane.add_section("Ações");
     pane.add_button("All 60").on_pressed([] {
         mDoAud_seStartMenu(kSoundItemChange);
         dComIfGs_setPohSpiritNum(60);
     });
-    pane.add_button("Clear").on_pressed([] {
+    pane.add_button("Limpar").on_pressed([] {
         mDoAud_seStartMenu(kSoundItemChange);
         dComIfGs_setPohSpiritNum(0);
     });
 
-    pane.add_section("Value");
+    pane.add_section("Valor");
     pane.add_child<NumberButton>(NumberButton::Props{
-        .key = "Collected",
+        .key = "Coletado",
         .getValue = [] { return dComIfGs_getPohSpiritNum(); },
         .setValue =
             [](int value) { dComIfGs_setPohSpiritNum(static_cast<u8>(std::clamp(value, 0, 60))); },
@@ -1189,7 +1189,7 @@ void populate_poe_souls_picker(Pane& pane) {
 
 void populate_max_life_picker(Pane& pane) {
     pane.clear();
-    pane.add_section("Actions");
+    pane.add_section("Ações");
     pane.add_button("3 Hearts").on_pressed([] {
         mDoAud_seStartMenu(kSoundItemChange);
         dComIfGs_setMaxLife(15);
@@ -1201,9 +1201,9 @@ void populate_max_life_picker(Pane& pane) {
         dComIfGs_setLife(80);
     });
 
-    pane.add_section("Value");
+    pane.add_section("Valor");
     pane.add_child<NumberButton>(NumberButton::Props{
-        .key = "Max Life",
+        .key = "Vida Máxima",
         .getValue = [] { return dComIfGs_getMaxLife(); },
         .setValue = [](int value) { set_max_life(value); },
         .min = 15,
@@ -1213,7 +1213,7 @@ void populate_max_life_picker(Pane& pane) {
 
 void populate_bug_species_picker(Pane& pane, const BugSpeciesEntry& bug) {
     pane.clear();
-    pane.add_section("Owned");
+    pane.add_section("Possuído");
     add_toggle_button(
         pane, {
                   .text = fmt::format("Male {}", bug.name),
@@ -1229,7 +1229,7 @@ void populate_bug_species_picker(Pane& pane, const BugSpeciesEntry& bug) {
                                      bool selected) { set_item_first_bit(item, selected); },
               });
 
-    pane.add_section("Given to Agitha");
+    pane.add_section("Dado à Agitha");
     add_toggle_button(
         pane, {
                   .text = fmt::format("Male {}", bug.name),
@@ -1263,7 +1263,7 @@ void populate_fish_species_picker(Pane& pane, const FishSpeciesEntry& fish) {
     pane.clear();
     pane.add_section(fish.name);
     pane.add_child<NumberButton>(NumberButton::Props{
-        .key = "Caught",
+        .key = "Capturado",
         .getValue = [index = fish.index] { return dComIfGs_getFishNum(index); },
         .setValue =
             [index = fish.index](int value) {
@@ -1273,7 +1273,7 @@ void populate_fish_species_picker(Pane& pane, const FishSpeciesEntry& fish) {
         .max = 999,
     });
     pane.add_child<NumberButton>(NumberButton::Props{
-        .key = "Biggest",
+        .key = "Maior",
         .getValue = [index = fish.index] { return dComIfGs_getFishSize(index); },
         .setValue =
             [index = fish.index](int value) {
@@ -1346,20 +1346,20 @@ void set_clock_time(int hour, int minute) {
 }  // namespace
 
 EditorWindow::EditorWindow() {
-    add_tab("Player Status", [this](Rml::Element* content) {
+    add_tab("Status do Jogador", [this](Rml::Element* content) {
         auto& leftPane = add_child<Pane>(content, Pane::Type::Controlled);
         auto& rightPane = add_child<Pane>(content, Pane::Type::Uncontrolled);
 
-        leftPane.add_section("Player");
+        leftPane.add_section("Jogador");
         leftPane.register_control(leftPane.add_child<StringButton>(StringButton::Props{
-                                      .key = "Player Name",
+                                      .key = "Nome do Jogador",
                                       .getValue = get_player_name,
                                       .setValue = set_player_name,
                                       .maxLength = 16,
                                   }),
             rightPane, {});
         leftPane.register_control(leftPane.add_child<StringButton>(StringButton::Props{
-                                      .key = "Horse Name",
+                                      .key = "Nome do Cavalo",
                                       .getValue = get_horse_name,
                                       .setValue = set_horse_name,
                                       .maxLength = 16,
@@ -1367,7 +1367,7 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Max Health",
+                .key = "Vida Máxima",
                 .getValue = [] { return get_player_status()->getMaxLife(); },
                 .setValue = [](int value) { return get_player_status()->setMaxLife(value); },
                 .max = UINT16_MAX,  // TODO: actual max
@@ -1375,7 +1375,7 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Health",
+                .key = "Vida",
                 .getValue = [] { return get_player_status()->getLife(); },
                 .setValue = [](int value) { return get_player_status()->setLife(value); },
                 .max = UINT16_MAX,  // TODO: actual max
@@ -1383,7 +1383,7 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Rupees",
+                .key = "Rúpias",
                 .getValue = [] { return get_player_status()->getRupee(); },
                 .setValue = [](int value) { return get_player_status()->setRupee(value); },
                 .max = get_player_status()->getRupeeMax(),
@@ -1391,7 +1391,7 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Max Oil",
+                .key = "Óleo Máximo",
                 .getValue = [] { return get_player_status()->getMaxOil(); },
                 .setValue = [](int value) { return get_player_status()->setMaxOil(value); },
                 .max = UINT16_MAX,  // TODO: actual max
@@ -1399,14 +1399,14 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Oil",
+                .key = "Óleo",
                 .getValue = [] { return get_player_status()->getOil(); },
                 .setValue = [](int value) { return get_player_status()->setOil(value); },
                 .max = UINT16_MAX,  // TODO: actual max
             }),
             rightPane, {});
 
-        leftPane.add_section("Equipment");
+        leftPane.add_section("Equipamento");
         const auto genSelectItemComboBox = [&leftPane, &rightPane](
                                                const Rml::String& label, u8& selectItemData) {
             leftPane.register_control(
@@ -1418,20 +1418,20 @@ EditorWindow::EditorWindow() {
                     populate_select_item_picker(pane, selectItemData);
                 });
         };
-        genSelectItemComboBox("Equip X", get_player_status()->mSelectItem[0]);
-        genSelectItemComboBox("Equip Y", get_player_status()->mSelectItem[1]);
-        genSelectItemComboBox("Combo Equip X", get_player_status()->mMixItem[0]);
-        genSelectItemComboBox("Combo Equip Y", get_player_status()->mMixItem[1]);
+        genSelectItemComboBox("Equipar X", get_player_status()->mSelectItem[0]);
+        genSelectItemComboBox("Equipar Y", get_player_status()->mSelectItem[1]);
+        genSelectItemComboBox("Equipar Combo X", get_player_status()->mMixItem[0]);
+        genSelectItemComboBox("Equipar Combo Y", get_player_status()->mMixItem[1]);
 
         leftPane.register_control(
             leftPane.add_select_button({
-                .key = "Clothes",
+                .key = "Roupas",
                 .getValue = [] { return get_item_name(get_player_status()->mSelectEquip[0]); },
             }),
             rightPane, [](Pane& pane) { populate_select_clothes_picker(pane); });
         leftPane.register_control(
             leftPane.add_select_button({
-                .key = "Sword",
+                .key = "Espada",
                 .getValue = [] { return get_item_name(get_player_status()->mSelectEquip[1]); },
             }),
             rightPane, [](Pane& pane) {
@@ -1440,7 +1440,7 @@ EditorWindow::EditorWindow() {
             });
         leftPane.register_control(
             leftPane.add_select_button({
-                .key = "Shield",
+                .key = "Escudo",
                 .getValue = [] { return get_item_name(get_player_status()->mSelectEquip[2]); },
             }),
             rightPane, [](Pane& pane) {
@@ -1449,7 +1449,7 @@ EditorWindow::EditorWindow() {
             });
         leftPane.register_control(
             leftPane.add_select_button({
-                .key = "Scent",
+                .key = "Aroma",
                 .getValue = [] { return get_item_name(get_player_status()->mSelectEquip[3]); },
             }),
             rightPane, [](Pane& pane) {
@@ -1458,21 +1458,21 @@ EditorWindow::EditorWindow() {
             });
         leftPane.register_control(
             leftPane.add_select_button({
-                .key = "Wallet Size",
+                .key = "Tamanho da Carteira",
                 .getValue = [] { return walletSizeNames[get_player_status()->getWalletSize()]; },
             }),
             rightPane, [](Pane& pane) { populate_wallet_picker(pane); });
         leftPane.register_control(
             leftPane.add_select_button({
-                .key = "Form",
+                .key = "Forma",
                 .getValue = [] { return formNames[get_player_status()->getTransformStatus()]; },
             }),
             rightPane, [](Pane& pane) { populate_form_picker(pane); });
 
-        leftPane.add_section("World");
+        leftPane.add_section("Mundo");
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Day",
+                .key = "Dia",
                 .getValue = [] { return get_player_status_b()->getDate(); },
                 .setValue =
                     [](int value) { get_player_status_b()->setDate(static_cast<u16>(value)); },
@@ -1481,7 +1481,7 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Hour",
+                .key = "Hora",
                 .getValue = [] { return dKy_getdaytime_hour(); },
                 .setValue = [](int value) { set_clock_time(value, dKy_getdaytime_minute()); },
                 .max = 23,
@@ -1489,7 +1489,7 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Minute",
+                .key = "Minuto",
                 .getValue = [] { return dKy_getdaytime_minute(); },
                 .setValue = [](int value) { set_clock_time(dKy_getdaytime_hour(), value); },
                 .max = 59,
@@ -1497,7 +1497,7 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Transform Level",
+                .key = "Nível de Transformação",
                 .getValue =
                     [] {
                         return std::popcount(static_cast<unsigned>(
@@ -1513,7 +1513,7 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Twilight Clear Level",
+                .key = "Nível de Purificação do Crepúsculo",
                 .getValue =
                     [] {
                         return std::popcount(static_cast<unsigned>(
@@ -1529,14 +1529,14 @@ EditorWindow::EditorWindow() {
             rightPane, {});
     });
 
-    add_tab("Location", [this](Rml::Element* content) {
+    add_tab("Localização", [this](Rml::Element* content) {
         auto& leftPane = add_child<Pane>(content, Pane::Type::Controlled);
         auto& rightPane = add_child<Pane>(content, Pane::Type::Uncontrolled);
 
-        leftPane.add_section("Save Location");
+        leftPane.add_section("Local de Save");
         leftPane
             .register_control(leftPane.add_select_button({
-                                  .key = "Stage",
+                                  .key = "Fase",
                                   .getValue =
                                       [] {
                                           return stage_label_for_file(
@@ -1555,7 +1555,7 @@ EditorWindow::EditorWindow() {
             .set_disabled(true);
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Room",
+                .key = "Sala",
                 .getValue = [] { return get_player_return_place()->mRoomNo; },
                 .setValue =
                     [](int value) { get_player_return_place()->mRoomNo = static_cast<s8>(value); },
@@ -1565,7 +1565,7 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Spawn ID",
+                .key = "ID de Spawn",
                 .getValue = [] { return get_player_return_place()->mPlayerStatus; },
                 .setValue =
                     [](int value) {
@@ -1575,9 +1575,9 @@ EditorWindow::EditorWindow() {
             }),
             rightPane, {});
 
-        leftPane.add_section("Horse Location");
+        leftPane.add_section("Localização do Cavalo");
         leftPane.register_control(leftPane.add_child<StringButton>(StringButton::Props{
-                                      .key = "Horse Position",
+                                      .key = "Posição do Cavalo",
                                       .getValue =
                                           [] {
                                               const auto* horsePlace = get_horse_place();
@@ -1602,7 +1602,7 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Horse Angle",
+                .key = "Ângulo do Cavalo",
                 .getValue = [] { return get_horse_place()->mAngleY; },
                 .setValue = [](int value) { get_horse_place()->mAngleY = static_cast<s16>(value); },
                 .min = std::numeric_limits<s16>::min(),
@@ -1612,7 +1612,7 @@ EditorWindow::EditorWindow() {
         leftPane
             .register_control(
                 leftPane.add_select_button({
-                    .key = "Horse Stage",
+                    .key = "Fase do Cavalo",
                     .getValue =
                         [] { return stage_label_for_file(fixed_string(get_horse_place()->mName)); },
                 }),
@@ -1627,7 +1627,7 @@ EditorWindow::EditorWindow() {
             .set_disabled(true);
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Horse Room",
+                .key = "Sala do Cavalo",
                 .getValue = [] { return get_horse_place()->mRoomNo; },
                 .setValue = [](int value) { get_horse_place()->mRoomNo = static_cast<s8>(value); },
                 .min = std::numeric_limits<s8>::min(),
@@ -1636,7 +1636,7 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Horse Spawn ID",
+                .key = "ID de Spawn do Cavalo",
                 .getValue = [] { return get_horse_place()->mSpawnId; },
                 .setValue = [](int value) { get_horse_place()->mSpawnId = static_cast<u8>(value); },
                 .max = std::numeric_limits<u8>::max(),
@@ -1644,12 +1644,12 @@ EditorWindow::EditorWindow() {
             rightPane, {});
     });
 
-    add_tab("Inventory", [this](Rml::Element* content) {
+    add_tab("Inventário", [this](Rml::Element* content) {
         auto& leftPane = add_child<Pane>(content, Pane::Type::Controlled);
         auto& rightPane = add_child<Pane>(content, Pane::Type::Uncontrolled);
 
-        leftPane.add_section("Item Wheel");
-        leftPane.register_control(leftPane.add_button("Default All").on_pressed([&rightPane] {
+        leftPane.add_section("Roda de Itens");
+        leftPane.register_control(leftPane.add_button("Padrão para Tudo").on_pressed([&rightPane] {
             mDoAud_seStartMenu(kSoundItemChange);
             for (int slot = 0; slot < 24; ++slot) {
                 dComIfGs_setItem(slot, get_slot_default(slot));
@@ -1657,7 +1657,7 @@ EditorWindow::EditorWindow() {
             rightPane.clear();
         }),
             rightPane, {});
-        leftPane.register_control(leftPane.add_button("Clear All").on_pressed([&rightPane] {
+        leftPane.register_control(leftPane.add_button("Limpar Tudo").on_pressed([&rightPane] {
             mDoAud_seStartMenu(kSoundItemChange);
             for (int slot = 0; slot < 24; ++slot) {
                 dComIfGs_setItem(slot, dItemNo_NONE_e);
@@ -1674,10 +1674,10 @@ EditorWindow::EditorWindow() {
                 rightPane, [slot](Pane& pane) { populate_item_slot_picker(pane, slot); });
         }
 
-        leftPane.add_section("Amounts");
+        leftPane.add_section("Quantidades");
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Arrows Amount",
+                .key = "Quantidade de Flechas",
                 .getValue = [] { return get_player_item_record()->mArrowNum; },
                 .setValue =
                     [](int value) { get_player_item_record()->mArrowNum = static_cast<u8>(value); },
@@ -1686,7 +1686,7 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Slingshot Amount",
+                .key = "Quantidade do Estilingue",
                 .getValue = [] { return get_player_item_record()->mPachinkoNum; },
                 .setValue =
                     [](int value) {
@@ -1722,10 +1722,10 @@ EditorWindow::EditorWindow() {
                 rightPane, {});
         }
 
-        leftPane.add_section("Capacities");
+        leftPane.add_section("Capacidades");
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Arrows Max",
+                .key = "Máximo de Flechas",
                 .getValue = [] { return get_player_item_max()->mItemMax[0]; },
                 .setValue =
                     [](int value) { get_player_item_max()->mItemMax[0] = static_cast<u8>(value); },
@@ -1734,7 +1734,7 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Normal Bombs Max",
+                .key = "Máximo de Bombas Normais",
                 .getValue = [] { return get_player_item_max()->mItemMax[1]; },
                 .setValue =
                     [](int value) { get_player_item_max()->mItemMax[1] = static_cast<u8>(value); },
@@ -1743,7 +1743,7 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Water Bombs Max",
+                .key = "Máximo de Bombas Aquáticas",
                 .getValue = [] { return get_player_item_max()->mItemMax[2]; },
                 .setValue =
                     [](int value) { get_player_item_max()->mItemMax[2] = static_cast<u8>(value); },
@@ -1752,7 +1752,7 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Bomblings Max",
+                .key = "Máximo de Bomblings",
                 .getValue = [] { return get_player_item_max()->mItemMax[3]; },
                 .setValue =
                     [](int value) { get_player_item_max()->mItemMax[3] = static_cast<u8>(value); },
@@ -1762,19 +1762,19 @@ EditorWindow::EditorWindow() {
 
         leftPane.add_section("Flags");
         leftPane.register_control(leftPane.add_select_button({
-                                      .key = "Obtained Items",
-                                      .getValue = [] { return "Edit"; },
+                                      .key = "Itens Obtidos",
+                                      .getValue = [] { return "Editar"; },
                                   }),
             rightPane, [](Pane& pane) { populate_item_flag_picker(pane); });
     });
-    add_tab("Collection", [this](Rml::Element* content) {
+    add_tab("Coleção", [this](Rml::Element* content) {
         auto& leftPane = add_child<Pane>(content, Pane::Type::Controlled);
         auto& rightPane = add_child<Pane>(content, Pane::Type::Uncontrolled);
 
-        leftPane.add_section("Equipment");
+        leftPane.add_section("Equipamento");
         leftPane.register_control(
             leftPane.add_select_button({
-                .key = "Swords",
+                .key = "Espadas",
                 .getValue =
                     [] {
                         return count_label(
@@ -1785,7 +1785,7 @@ EditorWindow::EditorWindow() {
             [](Pane& pane) { populate_toggle_group(pane, item_toggle_entries(swordEntries)); });
         leftPane.register_control(
             leftPane.add_select_button({
-                .key = "Shields",
+                .key = "Escudos",
                 .getValue =
                     [] {
                         return count_label(
@@ -1795,15 +1795,15 @@ EditorWindow::EditorWindow() {
             rightPane,
             [](Pane& pane) { populate_toggle_group(pane, item_toggle_entries(shieldEntries)); });
         leftPane.register_control(leftPane.add_select_button({
-                                      .key = "Clothing",
+                                      .key = "Roupas",
                                       .getValue = [] { return count_label(count_clothing(), 4); },
                                   }),
             rightPane, [](Pane& pane) { populate_collect_clothes_picker(pane); });
 
-        leftPane.add_section("Key Items");
+        leftPane.add_section("Itens-Chave");
         leftPane.register_control(
             leftPane.add_select_button({
-                .key = "Fused Shadows",
+                .key = "Sombras Fundidas",
                 .getValue =
                     [] {
                         return count_label(
@@ -1815,7 +1815,7 @@ EditorWindow::EditorWindow() {
             });
         leftPane.register_control(
             leftPane.add_select_button({
-                .key = "Mirror Shards",
+                .key = "Fragmentos do Espelho",
                 .getValue =
                     [] {
                         return count_label(
@@ -1829,17 +1829,17 @@ EditorWindow::EditorWindow() {
         leftPane.add_section("Health & Souls");
         leftPane.register_control(
             leftPane.add_select_button({
-                .key = "Poe Souls",
+                .key = "Almas Poe",
                 .getValue = [] { return fmt::format("{} / 60", dComIfGs_getPohSpiritNum()); },
             }),
             rightPane, [](Pane& pane) { populate_poe_souls_picker(pane); });
         leftPane.register_control(leftPane.add_select_button({
-                                      .key = "Max Life",
+                                      .key = "Vida Máxima",
                                       .getValue = [] { return max_life_label(); },
                                   }),
             rightPane, [](Pane& pane) { populate_max_life_picker(pane); });
 
-        leftPane.add_section("Golden Bugs");
+        leftPane.add_section("Insetos Dourados");
         for (const auto& bug : bugSpeciesEntries) {
             leftPane.register_control(leftPane.add_select_button({
                                           .key = bug.name,
@@ -1848,10 +1848,10 @@ EditorWindow::EditorWindow() {
                 rightPane, [bug](Pane& pane) { populate_bug_species_picker(pane, bug); });
         }
 
-        leftPane.add_section("Skills");
+        leftPane.add_section("Habilidades");
         leftPane.register_control(
             leftPane.add_select_button({
-                .key = "Hidden Skills",
+                .key = "Habilidades Ocultas",
                 .getValue =
                     [] {
                         return count_label(
@@ -1862,15 +1862,15 @@ EditorWindow::EditorWindow() {
                 populate_toggle_group(pane, event_toggle_entries(hiddenSkillEntries));
             });
 
-        leftPane.add_section("Logs");
+        leftPane.add_section("Registros");
         leftPane.register_control(
             leftPane.add_select_button({
-                .key = "Postman Letters",
+                .key = "Cartas do Carteiro",
                 .getValue = [] { return count_label(count_letters(), letterSenders.size()); },
             }),
             rightPane, [](Pane& pane) { populate_letters_picker(pane); });
 
-        leftPane.add_section("Fishing Log");
+        leftPane.add_section("Registro de Pesca");
         for (const auto& fish : fishSpeciesEntries) {
             leftPane.register_control(leftPane.add_select_button({
                                           .key = fish.name,
@@ -1884,14 +1884,14 @@ EditorWindow::EditorWindow() {
     //    // TODO
     //});
 
-    add_tab("Minigame", [this](Rml::Element* content) {
+    add_tab("Minijogo", [this](Rml::Element* content) {
         auto& leftPane = add_child<Pane>(content, Pane::Type::Controlled);
         auto& rightPane = add_child<Pane>(content, Pane::Type::Uncontrolled);
 
-        leftPane.add_section("Records");
+        leftPane.add_section("Recordes");
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "STAR Game Time (ms)",
+                .key = "Tempo do Jogo STAR (ms)",
                 .getValue =
                     [] {
                         return static_cast<int>(std::min<u32>(
@@ -1906,7 +1906,7 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Snowboard Race Time (ms)",
+                .key = "Tempo da Corrida de Snowboard (ms)",
                 .getValue =
                     [] {
                         return static_cast<int>(std::min<u32>(
@@ -1921,7 +1921,7 @@ EditorWindow::EditorWindow() {
             rightPane, {});
         leftPane.register_control(
             leftPane.add_child<NumberButton>(NumberButton::Props{
-                .key = "Fruit-Pop-Flight Score",
+                .key = "Pontuação de Fruit-Pop-Flight",
                 .getValue =
                     [] {
                         return static_cast<int>(std::min<u32>(
@@ -1936,25 +1936,25 @@ EditorWindow::EditorWindow() {
             rightPane, {});
     });
 
-    add_tab("Config", [this](Rml::Element* content) {
+    add_tab("Configuração", [this](Rml::Element* content) {
         auto& leftPane = add_child<Pane>(content, Pane::Type::Controlled);
         auto& rightPane = add_child<Pane>(content, Pane::Type::Uncontrolled);
 
-        leftPane.add_section("Options");
+        leftPane.add_section("Opções");
         leftPane.register_control(
             leftPane.add_child<BoolButton>(BoolButton::Props{
-                .key = "Enable Vibration",
+                .key = "Ativar Vibração",
                 .getValue = [] { return get_player_config()->getVibration() != 0; },
                 .setValue = [](bool value) { get_player_config()->setVibration(value); },
             }),
             rightPane, {});
         leftPane.register_control(leftPane.add_select_button({
-                                      .key = "Target Type",
+                                      .key = "Tipo de Mira",
                                       .getValue = [] { return target_type_label(); },
                                   }),
             rightPane, [](Pane& pane) { populate_target_type_picker(pane); });
         leftPane.register_control(leftPane.add_select_button({
-                                      .key = "Sound",
+                                      .key = "Som",
                                       .getValue = [] { return sound_mode_label(); },
                                   }),
             rightPane, [](Pane& pane) { populate_sound_mode_picker(pane); });

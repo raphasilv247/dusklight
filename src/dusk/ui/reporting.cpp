@@ -18,7 +18,7 @@ CrashReportWindow::CrashReportWindow() : WindowSmall("modal", "modal-dialog") {
 
     auto* title = append(header, "div");
     title->SetClass("modal-title", true);
-    title->SetInnerRML("Send Crash Reports");
+    title->SetInnerRML("Enviar Relatórios de Falha");
 
     auto* headIcon = append(header, "icon");
     headIcon->SetClass("question-mark", true);
@@ -26,11 +26,11 @@ CrashReportWindow::CrashReportWindow() : WindowSmall("modal", "modal-dialog") {
     auto* intro = append(mDialog, "div");
     intro->SetClass("modal-body", true);
     intro->SetInnerRML(
-        "Dusklight can automatically send crash reports to the developers. Crash reports contain the "
-        "following:"
-        "<br/>• Operating system version<br/>• CPU architecture<br/>• GPU model & driver version"
-        "<br/>• File paths (may include account username)<br/>• Stack trace<br/><br/>"
-        "This can be changed in the Settings menu at any time.");
+        "O Dusklight pode enviar relatórios de falhas automaticamente para os desenvolvedores. Os relatórios de falhas contêm o "
+        "seguinte:"
+        "<br/>• Versão do sistema operacional<br/>• Arquitetura da CPU<br/>• Modelo da GPU e versão do driver"
+        "<br/>• Caminhos de arquivo (podem incluir o nome de usuário da conta)<br/>• Rastreamento de pilha (stack trace)<br/><br/>"
+        "Isso pode ser alterado no menu de Configurações a qualquer momento.");
 
     auto* grid = append(mDialog, "div");
     grid->SetClass("preset-grid", true);
@@ -42,13 +42,13 @@ CrashReportWindow::CrashReportWindow() : WindowSmall("modal", "modal-dialog") {
     };
 
     static constexpr OptionInfo kOptions[] = {
-        {"Enable",
-            "Send crash reports to Dusklight developers. Reports will include the information described "
-            "above.",
+        {"Ativar",
+            "Envia relatórios de falhas para os desenvolvedores do Dusklight. Os relatórios incluirão as informações descritas "
+            "acima.",
             [] { crash_reporting::set_consent(true); }},
-        {"Disable",
-            "Do not send crash reports. This may make it more difficult to resolve issues you "
-            "encounter.",
+        {"Desativar",
+            "Não envia relatórios de falhas. Isso pode dificultar a resolução de problemas que você "
+            "encontrar.",
             [] { crash_reporting::set_consent(false); }},
     };
 

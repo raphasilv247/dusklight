@@ -695,7 +695,7 @@ Prelaunch::Prelaunch()
         auto& state = prelaunch_state();
         const bool activeDiscLoaded = !state.activeDiscPath.empty();
         mMenuButtons.push_back(
-            std::make_unique<Button>(menuList, activeDiscLoaded ? "Jogar" : "Selecionar Imagem de Disco"));
+            std::make_unique<Button>(menuList, activeDiscLoaded ? "Jogar" : "Selecionar ISO do Jogo"));
         mMenuButtons.back()->on_pressed([this] {
             if (prelaunch_state().activeDiscPath.empty()) {
                 open_iso_picker();
@@ -856,7 +856,7 @@ void Prelaunch::update() {
     }
 
     if (!mMenuButtons.empty()) {
-        mMenuButtons[0]->set_text(activeDiscLoaded ? "Jogar" : "Selecionar Imagem de Disco");
+        mMenuButtons[0]->set_text(activeDiscLoaded ? "Jogar" : "Selecionar ISO do Jogo");
     }
 
     const auto discStatusLabel = mDiscStatus->GetElementById("disc-status-label");
